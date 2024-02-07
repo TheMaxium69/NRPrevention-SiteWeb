@@ -7,6 +7,30 @@ header li:nth-child(3){
 
 header li{
 
-    margin: 0 40px ;
+    margin: auto 40px ;
+
 
 }
+
+header li .active{
+
+    color: red!important;
+
+}
+
+header li img{
+
+    margin-top: -50px;
+    width: 111px;
+
+}
+
+#displayback{
+    background-image: url("http://tyrolium.fr/Contenu/Image/Background3.png");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+
