@@ -1,11 +1,17 @@
-<?php include "app/app.php"; $page = 1; head($page); ?>
-<body> <header> <?php navbar($page); ?> </header>
+<?php include "app/app.php";
+$page = 1;
+head($page); ?>
 
-<main>
+<body>
+    <header> <?php navbar($page); ?> </header>
 
-    <p>Exemple </p>
+    <main>
 
-</main>
+        <p>ExempleTest</p>
+
+    </main>
 
 
-</body> </html>
+</body>
+
+</html>
