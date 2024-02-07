@@ -6,9 +6,7 @@ head($page); ?>
     <header> <?php navbar($page); ?> </header>
 
     <main>
-
-        <p>Exemple </p>
-
+        <div class="brown-bar"></div>
         <section id="SectionACF">
             <!-- ACCOMPAGNEMENT/COMPETENCES/FORMATION -->
             <div class="container"> <!-- container si je touche pas les bords pas de container si je touche les bords)
@@ -17,7 +15,7 @@ head($page); ?>
                 <div class="row"> <!-- ça aligne -->
                     <div class="col-lg-4"> <!-- On copie ça le nombre de fois ou on a besoin -->
                         <div class="d-flex justify-content-center">
-                            ici mon image 1
+                            <img src="https://placehold.co/150x150" height="150px" width="150px" alt="kc">
                         </div>
                         <div class="d-flex justify-content-center">
                             ici mon titre 1
@@ -28,7 +26,7 @@ head($page); ?>
                     </div>
                     <div class="col-lg-4 border-end border-start"> <!-- On copie ça le nombre de fois ou on a besoin -->
                         <div class=" d-flex justify-content-center">
-                            ici mon image 2
+                            <img src="https://placehold.co/150x150" height="150px" width="150px" alt="kc">
                         </div>
                         <div class="d-flex justify-content-center">
                             ici mon titre 2
@@ -39,7 +37,7 @@ head($page); ?>
                     </div>
                     <div class="col-lg-4"> <!-- On copie ça le nombre de fois ou on a besoin -->
                         <div class="d-flex justify-content-center">
-                            ici mon image 3
+                            <img src="https://placehold.co/150x150" height="150px" width="150px" alt="kc">
                         </div>
                         <div class="d-flex justify-content-center">
                             ici mon titre 3
