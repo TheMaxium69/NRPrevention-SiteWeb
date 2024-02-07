@@ -3,13 +3,22 @@ body {
     padding: 0;
 }
 
-section {
+#sectionACF,
+#sectionCL,
+#sectionTF,
+#sectionF,
+#sectionQ {
     padding: 5%;
 }
 
+section .fontCadreLegale {
+    font-size: 75px;
+    font-weight: bold;
+}
 
 .brown-bar {
     background-color: #8B4513;
+    /* A modifier plus tard !! */
     height: 20px;
     width: 100%;
 }
