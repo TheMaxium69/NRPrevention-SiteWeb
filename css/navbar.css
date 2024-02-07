@@ -27,10 +27,26 @@ header li img{
 
 #displayback{
     background-image: url("http://tyrolium.fr/Contenu/Image/Background3.png");
-    height: 300px;
+    height: 500px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
 }
 
+#displayback h1{
+  width: 235px;
+  text-align: center;
+  font-weight: bold;
+}
 
+
+#displayback div{
+    left: 200px;
+    position: absolute;
+    top: 110px;
+}
+
+
+#displayback p{
+    color: rgb(187, 123, 4);
+}
