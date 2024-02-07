@@ -1,0 +1,28 @@
+.footer-style{
+    display: flex;
+    
+}
+
+
+.brown-div{
+    background-color: #672f07;
+    height: 400px;
+    width: 45%;
+}
+
+.white-div{
+    background-color: rgb(251, 251, 251);
+    height: 400px;
+    width: 10%;
+    position: absolute;
+    margin-left: 80px;
+}
+
+.grey-div{
+    background-color: rgb(202, 200, 200);
+    height: 290px;
+    width: 70%;
+    right: 0;
+    margin-top: 5%;
+    position: absolute;
+}

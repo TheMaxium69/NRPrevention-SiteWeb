@@ -189,7 +189,7 @@ head($page); ?>
         </section>
     </main>
 
-
+    <footer> <?php footer(); ?> </footer>
 </body>
 
 </html>
