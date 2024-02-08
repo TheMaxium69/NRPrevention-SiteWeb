@@ -7,8 +7,10 @@ header li:nth-child(3){
 
 header li{
 
-    margin: auto 40px ;
-    margin-top: -10px;
+    margin-bottom: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 13px;
     font-family: "Roboto", sans-serif; /* A modifier plus tard !! */
     font-weight: 400;
 

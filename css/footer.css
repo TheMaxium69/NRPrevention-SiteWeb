@@ -11,7 +11,7 @@
 }
 
 .white-div{
-    background-color: rgb(251, 251, 251); /* A modifier plus tard !! */
+    background-color: white; /* A modifier plus tard !! */
     height: 400px;
     width: 10%;
     position: absolute;
