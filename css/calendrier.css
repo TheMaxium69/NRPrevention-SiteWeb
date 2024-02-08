@@ -1,0 +1,8 @@
+.displayback-calendar{
+    background-image: url("../assets/2-removebg-preview.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin-top: 50px ;
+}
