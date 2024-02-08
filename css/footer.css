@@ -16,6 +16,16 @@
     width: 10%;
     position: absolute;
     margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-style img{
+    width: 190px;
+    height: 190px;
+    
 }
 
 .grey-div{
