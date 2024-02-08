@@ -19,7 +19,7 @@
 }
 
 .grey-div{
-    background-color: rgb(202, 200, 200);
+    background-color: rgb(216, 211, 211);
     height: 300px;
     width: 75%;
     right: 0;
@@ -29,5 +29,15 @@
 
 .footer-position h6{
     font-family: "Roboto", sans-serif;
-    font-weight: 700;
+    font-weight: 900;
+}
+
+.footer-element-1 p{
+
+    margin-bottom: 0;
+}
+
+.footer-element-2 p{
+
+    margin-bottom: 0;
 }
