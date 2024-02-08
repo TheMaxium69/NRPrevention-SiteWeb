@@ -1,0 +1,16 @@
+header .grey{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(186, 186, 186);
+    margin-top: 20px;
+}
+
+
+
+.margin-header{
+    text-align: center;
+    margin-top: -55px;
+    font-weight: 900;
+    font-size: 80px;
+    color: rgb(198, 147, 105);
+}

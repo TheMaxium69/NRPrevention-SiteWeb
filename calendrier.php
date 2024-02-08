@@ -4,7 +4,7 @@ head($page); ?>
 
 <body>
     <header> <?php navbar($page); ?> 
-    <div class="displayback-calendar">
+    <div class= "displayback-calendar">
         
         </div>
     </header>
