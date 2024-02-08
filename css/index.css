@@ -21,8 +21,6 @@ section .fontCadreLegale {
     /* A modifier plus tard !! */
     height: 20px;
     width: 100%;
-    position: relative;
-    left: -12px;
 
 }
 
@@ -31,9 +29,8 @@ section .fontCadreLegale {
     /* A modifier plus tard !! */
     height: 20px;
     width: 75%;
-    position: relative;
-    left: -12px;
     margin-top: 10px;
+    margin-bottom: 10px;
 
 }
 

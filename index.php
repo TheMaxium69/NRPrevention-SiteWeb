@@ -130,7 +130,7 @@ head($page); ?>
                         </div>
                     </div>
                     <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class="border">
+                        <div class="border d-flex justify-content-center">
                             <img src="https://placehold.co/200x400" height="400px" width="200px" alt="kc">
                         </div>
                         <div class="border d-flex justify-content-center">
@@ -138,7 +138,7 @@ head($page); ?>
                         </div>
                     </div>
                     <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class="border">
+                        <div class="border d-flex justify-content-center">
                             <img src="https://placehold.co/200x400" height="400px" width="200px" alt="kc">
                         </div>
                         <div class="border d-flex justify-content-center">
@@ -146,7 +146,7 @@ head($page); ?>
                         </div>
                     </div>
                     <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class="border">
+                        <div class="border d-flex justify-content-center">
                             <img src="https://placehold.co/200x400" height="400px" width="200px" alt="kc">
                         </div>
                         <div class="border d-flex justify-content-center">
@@ -156,6 +156,20 @@ head($page); ?>
                 </div>
             </div>
         </section>
+        <div class="container-fluid">
+            <div class="row d-flex justify-content-between">
+                <div class="col-lg-4">
+                </div>
+                <div class="col-lg-6 d-flex justify-content-end">
+                    <div class="gray-bar"></div>
+                </div>
+                <div class="col-lg-4">
+                </div>
+                <div class="col-lg-6">
+                    <div class="brown-bar"></div>
+                </div>
+            </div>
+        </div>
         <section id="sectionQ">
             <!-- Qualiopi -->
             <div class="container"> <!-- container si je touche pas les bords pas de container si je touche les bords)
