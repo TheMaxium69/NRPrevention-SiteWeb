@@ -15,7 +15,7 @@ head($page); ?>
                 <div class="row"> <!-- ça aligne -->
                     <div class="col-lg-4"> <!-- On copie ça le nombre de fois ou on a besoin -->
                         <div class="d-flex justify-content-center">
-                            <img src="https://placehold.co/150x150" class="m-3" height="150px" width="150px" alt="kc">
+                            <img src="./assets/deggr.png" class="m-3" height="200px" width="200px" alt="kc">
                         </div>
                         <div class="d-flex justify-content-center m-3">
                             ici mon titre 1
@@ -26,7 +26,7 @@ head($page); ?>
                     </div>
                     <div class="col-lg-4 border-end border-start"> <!-- On copie ça le nombre de fois ou on a besoin -->
                         <div class=" d-flex justify-content-center">
-                            <img src="https://placehold.co/150x150" class="m-3" height="150px" width="150px" alt="kc">
+                            <img src="./assets/iohni.png" class="m-3" height="200px" width="200px" alt="deggr">
                         </div>
                         <div class="d-flex justify-content-center m-3">
                             ici mon titre 2
@@ -37,7 +37,7 @@ head($page); ?>
                     </div>
                     <div class="col-lg-4"> <!-- On copie ça le nombre de fois ou on a besoin -->
                         <div class="d-flex justify-content-center">
-                            <img src="https://placehold.co/150x150" class="m-3" height="150px" width="150px" alt="kc">
+                            <img src="./assets/sqfze.png" class="m-3" height="200px" width="200px" alt="sqfze">
                         </div>
                         <div class="d-flex justify-content-center m-3">
                             ici mon titre 3
@@ -112,45 +112,45 @@ head($page); ?>
             <!-- FORMATIONS -->
             <div class="container"> <!-- container si je touche pas les bords pas de container si je touche les bords)
                     <h2>MON TITRE</h2>-->
-                <div class="row justify-content-between"> <!-- ça aligne -->
-                    <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class="border">
-                            <img src="https://placehold.co/200x400" height="400px" width="200px" alt="kc">
+                <div class="row d-flex justify-content-around imageFormation"> <!-- ça aligne -->
+                    <div class="col-lg-2 custom-width"> <!-- On copie ça le nombre de fois ou on a besoin -->
+                        <div class="border d-flex justify-content-center">
+                            <img class="img-fluid" src="./assets/page-9.jpeg" alt="kc">
                         </div>
                         <div class="border d-flex justify-content-center">
                             <p class="text-start">Formation <br> Incendie</p>
                         </div>
                     </div>
-                    <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class="border d-flex justify-content-center">
-                            <img src="https://placehold.co/200x400" height="400px" width="200px" alt="kc">
+                    <div class="col-lg-2 custom-width"> <!-- On copie ça le nombre de fois ou on a besoin -->
+                        <div class="border">
+                            <img src="./assets/postures.jpeg" alt="kc">
                         </div>
                         <div class="border d-flex justify-content-center">
-                           <p class="text-start">Formation <br> Geste et posture</p>
+                            <p class="text-start">Formation <br> Geste et posture</p>
                         </div>
                     </div>
-                    <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class="border d-flex justify-content-center">
-                            <img src="https://placehold.co/200x400" height="400px" width="200px" alt="kc">
+                    <div class="col-lg-2 custom-width"> <!-- On copie ça le nombre de fois ou on a besoin -->
+                        <div class="border">
+                            <img src="./assets/dfdfg (1).jpeg" alt="kc">
                         </div>
                         <div class="border d-flex justify-content-center">
                             <p class="text-start">Formation <br> SST</p>
                         </div>
                     </div>
-                    <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class="border d-flex justify-content-center">
-                            <img src="https://placehold.co/200x400" height="400px" width="200px" alt="kc">
+                    <div class="col-lg-2 custom-width"> <!-- On copie ça le nombre de fois ou on a besoin -->
+                        <div class="border">
+                            <img src="./assets/defib.jpeg" alt="kc">
                         </div>
                         <div class="border d-flex justify-content-center">
                             <p class="text-start">Formation <br> Défibrilateur</p>
                         </div>
                     </div>
-                    <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class="border d-flex justify-content-center">
-                            <img src="https://placehold.co/200x400" height="400px" width="200px" alt="kc">
+                    <div class="col-lg-2 custom-width"> <!-- On copie ça le nombre de fois ou on a besoin -->
+                        <div class="border">
+                            <img src="./assets/page-5.jpeg" alt="kc">
                         </div>
                         <div class="border d-flex justify-content-center">
-                        <p class="text-start">Formation <br>MAC SST</p>
+                            <p class="text-start">Formation <br>MAC SST</p>
                         </div>
                     </div>
                 </div>
@@ -170,21 +170,24 @@ head($page); ?>
                 </div>
             </div>
         </div>
-        <section id="section3CD">
-            <!-- 3 cases design -->
-            <div> <!-- container si je touche pas les bords pas de container si je touche les bords)
+        <section id="sectionQ1">
+            <div class="container">
+                <!-- 3 cases design -->
+                <div> <!-- container si je touche pas les bords pas de container si je touche les bords)
                     <h2>MON TITRE</h2>-->
-                <div class="row p-0 m-0"> <!-- ça aligne -->
-                    <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class="rectangledesign rectanglecolor1">
+                    <div class="row p-0 m-0"> <!-- ça aligne -->
+                        <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
+                            <div class="rectangledesign rectanglecolor3">
+                                <img class="img-fluid" src="./assets/Logo-Qualiopi.png" alt="Logo Qualiopi">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="sectionQ">
+        <section id="sectionQ2">
             <!-- Qualiopi -->
-            <div class="container-fluid"> <!-- container si je touche pas les bords pas de container si je touche les bords)
+            <div class="container"> <!-- container si je touche pas les bords pas de container si je touche les bords)
                     <h2>MON TITRE</h2>-->
                 <div class="row justify-content-between"> <!-- ça aligne -->
                     <div class="col-lg-3"> <!-- On copie ça le nombre de fois ou on a besoin -->
@@ -200,7 +203,7 @@ head($page); ?>
                             <img src="https://placehold.co/150x150" height="150px" width="150px" alt="kc">
                         </div>
                         <div class="border d-flex justify-content-center">
-                        <p>TEST</p>
+                            <p>TEST</p>
                         </div>
                     </div>
                     <div class="col-lg-3"> <!-- On copie ça le nombre de fois ou on a besoin -->
@@ -208,7 +211,7 @@ head($page); ?>
                             <img src="https://placehold.co/150x150" height="150px" width="150px" alt="kc">
                         </div>
                         <div class="border d-flex justify-content-center">
-                        <p>TEST</p>
+                            <p>TEST</p>
                         </div>
                     </div>
                     <div class="col-lg-3"> <!-- On copie ça le nombre de fois ou on a besoin -->
@@ -216,7 +219,7 @@ head($page); ?>
                             <img src="https://placehold.co/150x150" height="150px" width="150px" alt="kc">
                         </div>
                         <div class="border d-flex justify-content-center">
-                        <p>TEST</p>
+                            <p>TEST</p>
                         </div>
                     </div>
                 </div>
@@ -228,23 +231,23 @@ head($page); ?>
                     <h2>MON TITRE</h2>-->
                 <div class="row"> <!-- ça aligne -->
                     <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class="border d-flex justify-content-center align-items-center">
-                            <img src="https://placehold.co/150x150" height="150px" width="150px" alt="kc">
+                        <div class="border d-flex justify-content-center">
+                            <img class="img-fluid" src="./assets/calendrier.png" alt="kc">
                         </div>
                     </div>
                     <div class="col-lg-4"> <!-- On copie ça le nombre de fois ou on a besoin -->
                         <div class="border d-flex justify-content-center">
-                            ici mon contenu
+                            <h2>Calendrier</h2>
                         </div>
                     </div>
                     <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class="border d-flex justify-content-center align-items-center">
-                            <img src="https://placehold.co/150x150" height="150px" width="150px" alt="kc">
+                        <div class="border d-flex justify-content-center">
+                            <img class="img-fluid" src="./assets/calcul.png" alt="kc">
                         </div>
                     </div>
                     <div class="col-lg-4"> <!-- On copie ça le nombre de fois ou on a besoin -->
                         <div class="border d-flex justify-content-center">
-                            ici mon contenu
+                            <h2>Devis</h2>
                         </div>
                     </div>
                 </div>
