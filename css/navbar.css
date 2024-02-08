@@ -8,6 +8,9 @@ header li:nth-child(3){
 header li{
 
     margin: auto 40px ;
+    margin-top: -10px;
+    font-family: "Roboto", sans-serif; /* A modifier plus tard !! */
+    font-weight: 400;
 
 
 }
@@ -15,6 +18,7 @@ header li{
 header li .active{
 
     color: red!important;
+
 
 }
 
