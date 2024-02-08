@@ -118,7 +118,7 @@ head($page); ?>
                             <img src="https://placehold.co/200x400" height="400px" width="200px" alt="kc">
                         </div>
                         <div class="border d-flex justify-content-center">
-                            ici mon
+                            <p class="text-start">Formation <br> Incendie</p>
                         </div>
                     </div>
                     <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
@@ -126,7 +126,7 @@ head($page); ?>
                             <img src="https://placehold.co/200x400" height="400px" width="200px" alt="kc">
                         </div>
                         <div class="border d-flex justify-content-center">
-                            ici mon rectangle
+                           <p class="text-start">Formation <br> Geste et posture</p>
                         </div>
                     </div>
                     <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
@@ -134,7 +134,7 @@ head($page); ?>
                             <img src="https://placehold.co/200x400" height="400px" width="200px" alt="kc">
                         </div>
                         <div class="border d-flex justify-content-center">
-                            ici mon image
+                            <p class="text-start">Formation <br> SST</p>
                         </div>
                     </div>
                     <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
@@ -142,7 +142,7 @@ head($page); ?>
                             <img src="https://placehold.co/200x400" height="400px" width="200px" alt="kc">
                         </div>
                         <div class="border d-flex justify-content-center">
-                            ici mon rectangle
+                            <p class="text-start">Formation <br> Défibrilateur</p>
                         </div>
                     </div>
                     <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
@@ -150,7 +150,7 @@ head($page); ?>
                             <img src="https://placehold.co/200x400" height="400px" width="200px" alt="kc">
                         </div>
                         <div class="border d-flex justify-content-center">
-                            ici mon rectangle
+                        <p class="text-start">Formation <br>MAC SST</p>
                         </div>
                     </div>
                 </div>
@@ -172,7 +172,7 @@ head($page); ?>
         </div>
         <section id="sectionQ">
             <!-- Qualiopi -->
-            <div class="container"> <!-- container si je touche pas les bords pas de container si je touche les bords)
+            <div class="container-fluid"> <!-- container si je touche pas les bords pas de container si je touche les bords)
                     <h2>MON TITRE</h2>-->
                 <div class="row justify-content-between"> <!-- ça aligne -->
                     <div class="col-lg-3"> <!-- On copie ça le nombre de fois ou on a besoin -->
@@ -180,7 +180,7 @@ head($page); ?>
                             <img src="https://placehold.co/150x150" height="150px" width="150px" alt="kc">
                         </div>
                         <div class="border d-flex justify-content-center">
-                            ici mon rectangle
+                            <p>TEST</p>
                         </div>
                     </div>
                     <div class="col-lg-3"> <!-- On copie ça le nombre de fois ou on a besoin -->
@@ -188,7 +188,7 @@ head($page); ?>
                             <img src="https://placehold.co/150x150" height="150px" width="150px" alt="kc">
                         </div>
                         <div class="border d-flex justify-content-center">
-                            ici mon rectangle
+                        <p>TEST</p>
                         </div>
                     </div>
                     <div class="col-lg-3"> <!-- On copie ça le nombre de fois ou on a besoin -->
@@ -196,7 +196,7 @@ head($page); ?>
                             <img src="https://placehold.co/150x150" height="150px" width="150px" alt="kc">
                         </div>
                         <div class="border d-flex justify-content-center">
-                            ici mon rectangle
+                        <p>TEST</p>
                         </div>
                     </div>
                     <div class="col-lg-3"> <!-- On copie ça le nombre de fois ou on a besoin -->
@@ -204,7 +204,7 @@ head($page); ?>
                             <img src="https://placehold.co/150x150" height="150px" width="150px" alt="kc">
                         </div>
                         <div class="border d-flex justify-content-center">
-                            ici mon rectangle
+                        <p>TEST</p>
                         </div>
                     </div>
                 </div>
