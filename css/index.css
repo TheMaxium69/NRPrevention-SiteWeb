@@ -21,6 +21,20 @@ section .fontCadreLegale {
     /* A modifier plus tard !! */
     height: 20px;
     width: 100%;
+    position: relative;
+    left: -12px;
+
+}
+
+.gray-bar {
+    background-color: #302e2e;
+    /* A modifier plus tard !! */
+    height: 20px;
+    width: 75%;
+    position: relative;
+    left: -12px;
+    margin-top: 10px;
+
 }
 
 .h2NR:before {
@@ -58,4 +72,12 @@ section .fontCadreLegale {
 .rectanglecolor2 {
     background-color: #d6a315;
     /* A modifier plus tard !! */
+}
+
+.fontFormations {
+    font-size: 100px;
+    font-weight: bold;
+    position: relative;
+    left: 70px;
+    color: rgb(112, 110, 111);
 }

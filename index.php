@@ -53,17 +53,17 @@ head($page); ?>
             <!-- 3 cases design -->
             <div> <!-- container si je touche pas les bords pas de container si je touche les bords)
                     <h2>MON TITRE</h2>-->
-                <div class="row justify-content-end"> <!-- ça aligne -->
+                <div class="row justify-content-end p-0 m-0"> <!-- ça aligne -->
                     <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class="border d-flex justify-content-center rectangledesign rectanglecolor1">
+                        <div class="rectangledesign rectanglecolor1">
                         </div>
                     </div>
                     <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class="border d-flex justify-content-center rectangledesign rectanglecolor2">
+                        <div class="rectangledesign rectanglecolor2">
                         </div>
                     </div>
                     <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class="border d-flex justify-content-center rectangledesign rectanglecolor1">
+                        <div class="rectangledesign rectanglecolor1">
                         </div>
                     </div>
                 </div>
@@ -97,6 +97,17 @@ head($page); ?>
                 </div>
             </div>
         </section>
+        <div class="container-fluid">
+            <div class="row d-flex">
+                <div class="col-lg-6">
+                    <div class="brown-bar"></div>
+                    <div class="gray-bar"></div>
+                </div>
+                <div class="col-lg-2">
+                    <h2 class="fontFormations">FORMATIONS</h2>
+                </div>
+            </div>
+        </div>
         <section id="sectionF">
             <!-- FORMATIONS -->
             <div class="container"> <!-- container si je touche pas les bords pas de container si je touche les bords)
