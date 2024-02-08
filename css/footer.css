@@ -1,17 +1,17 @@
 .footer-style{
     display: flex;
-    
+    margin-top: 60px;
 }
 
 
 .brown-div{
-    background-color: #672f07;
+    background-color: #672f07; /* A modifier plus tard !! */
     height: 400px;
     width: 45%;
 }
 
 .white-div{
-    background-color: rgb(251, 251, 251);
+    background-color: rgb(251, 251, 251); /* A modifier plus tard !! */
     height: 400px;
     width: 10%;
     position: absolute;
@@ -28,7 +28,7 @@
 }
 
 .footer-position h6{
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif; /* A modifier plus tard !! */
     font-weight: 900;
 }
 
