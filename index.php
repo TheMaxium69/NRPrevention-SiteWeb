@@ -49,6 +49,26 @@ head($page); ?>
                 </div>
             </div>
         </section>
+        <section id="">
+            <!-- 3 cases design -->
+            <div> <!-- container si je touche pas les bords pas de container si je touche les bords)
+                    <h2>MON TITRE</h2>-->
+                <div class="row justify-content-end"> <!-- ça aligne -->
+                    <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
+                        <div class="border d-flex justify-content-center rectangledesign rectanglecolor1">
+                        </div>
+                    </div>
+                    <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
+                        <div class="border d-flex justify-content-center rectangledesign rectanglecolor2">
+                        </div>
+                    </div>
+                    <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
+                        <div class="border d-flex justify-content-center rectangledesign rectanglecolor1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section id="sectionCL">
             <!-- CADRE LEGALE -->
             <div class="container NR"> <!-- container si je touche pas les bords pas de container si je touche les bords)
@@ -59,11 +79,11 @@ head($page); ?>
                         <div id="h2CL" class="m-3 fontCadreLegale">
                             CADRE <br> LEGALE
                             <style>
-                            .h2NR:before {
-                                content: 'NR';
+                                .h2NR:before {
+                                    content: 'NR';
 
-                            }
-                        </style>
+                                }
+                            </style>
                         </div>
                     </div>
                     <div class="col-lg-6 border-start"> <!-- On copie ça le nombre de fois ou on a besoin -->
