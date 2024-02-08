@@ -51,13 +51,19 @@ head($page); ?>
         </section>
         <section id="sectionCL">
             <!-- CADRE LEGALE -->
-            <div class="container"> <!-- container si je touche pas les bords pas de container si je touche les bords)
+            <div class="container NR"> <!-- container si je touche pas les bords pas de container si je touche les bords)
                     <h2>MON TITRE</h2>-->
 
                 <div class="row"> <!-- ça aligne -->
-                    <div class="col-lg-6"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class="m-3 fontCadreLegale">
+                    <div class="col-lg-6 h2NR"> <!-- On copie ça le nombre de fois ou on a besoin -->
+                        <div id="h2CL" class="m-3 fontCadreLegale">
                             CADRE <br> LEGALE
+                            <style>
+                            .h2NR:before {
+                                content: 'NR';
+
+                            }
+                        </style>
                         </div>
                     </div>
                     <div class="col-lg-6 border-start"> <!-- On copie ça le nombre de fois ou on a besoin -->

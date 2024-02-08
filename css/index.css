@@ -22,3 +22,27 @@ section .fontCadreLegale {
     height: 20px;
     width: 100%;
 }
+
+.h2NR:before {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 450px;
+    color: #e6e7e8;
+    position: absolute;
+    left: -33px;
+    z-index: 1;
+    min-width: 1100px;
+    top: 1070px;
+}
+
+#h2CL{
+    position: relative;
+    z-index: 2;
+}
+
+.NRtext{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 12px;
+    color: rgb(112, 110, 111);
+}
