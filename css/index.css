@@ -31,7 +31,7 @@ body {
     color: aliceblue;
 }
 
-section .fontCadreLegale {
+#sectionCL .fontCadreLegale {
     font-size: 75px;
     font-weight: bold;
 }
@@ -54,7 +54,7 @@ section .fontCadreLegale {
 
 }
 
-.h2NR:before {
+#sectionCL .h2NR:before {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 450px;
@@ -66,14 +66,9 @@ section .fontCadreLegale {
     top: 1325px;
 }
 
-#h2CL {
+#sectionCL #h2CL {
     position: relative;
     z-index: 2;
-}
-
-.NRtext {
-    font-size: 12px;
-    color: rgb(112, 110, 111);
 }
 
 .rectangledesign {
@@ -109,10 +104,7 @@ section .fontCadreLegale {
     color: rgb(112, 110, 111);
 }
 
-.imageFormation {
-
-
-}
+.imageFormation {}
 
 .imageFormation img {
     width: 100%;
