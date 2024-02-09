@@ -3,12 +3,22 @@ $page = 2;
 head($page); ?>
 
 <body>
-    <header> <?php navbar($page); ?> 
+    <header> <?php navbar($page); ?> </header>
+
+
+<main>
     <div class= "displayback-calendar">
-        
-        </div>
-    </header>
-    
+
+    </div>
+
+
+
+</main>
+
+
+
+
+</body></html>
     
 
 
