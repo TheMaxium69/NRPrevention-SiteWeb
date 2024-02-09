@@ -171,40 +171,16 @@ head($page); ?>
             </div>
         </div>
         <?php qualiopi(); ?>
-        <section id="sectionCD">
-            <!-- Calendrier/Devis -->
-            <div class="container"> <!-- container si je touche pas les bords pas de container si je touche les bords)
-                    <h2>MON TITRE</h2>-->
-                <div class="row"> <!-- ça aligne -->
-                    <div class="col-lg-6 d-flex align-items-center"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class="row">
-                            <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                                <div class="border d-flex justify-content-center">
-                                    <img class="img-fluid" src="./assets/calendrier.png" height="200px" width="200px" alt="kc">
-                                </div>
-                            </div>
-                            <div class="col-lg-6"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                                <div class="border d-flex justify-content-center">
-                                    <h2>Calendrier</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class="border d-flex justify-content-center">
-                            <img class="img-fluid" src="./assets/calcul.png" alt="kc">
-                        </div>
-                    </div>
-                    <div class="col-lg-3"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class="border d-flex justify-content-center">
-                            <h2>Devis</h2>
-                        </div>
-                    </div>
-                </div>
+    <div class="calendrier-block">
+        <div class="calendrier-block1">
+            <img src="./assets/calendrier.png" alt="calendrier">
+            <h3>Calendrier</h3>
             </div>
-        </section>
-    </main>
-
+            <div class="calendrier-block2">
+            <img src="./assets/calcul.png" alt="devis">
+            <h3>Devis</h3>
+            </div>
+            </div>
     <footer> <?php footer(); ?> </footer>
 
 </body>
