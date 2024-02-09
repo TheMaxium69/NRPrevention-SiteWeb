@@ -3,5 +3,162 @@
 </div>
 </div>
 <div id="block-qualiopi">
+
+    <section id="competence">
+        <div class="card" style="background: transparent;border: unset !important;">
+            <div class="bg">
+                <div style="margin: 66px 35px;">
+                    <article>
+
+                        <div class="parent-skill">
+                            <div class="skill">
+                                <div class="progress" data-progress="90">
+                                    <span class="progress-number"></span>
+                                </div>
+                            </div>
+                            <span class="title">620000+Nombre d'AT sur lieu de travail an</span>
+                        </div>
+
+                        <div class="parent-skill">
+                            <div class="skill">
+                                <div class="progress" data-progress="65">
+                                    <span class="progress-number"></span>
+                                </div>
+                            </div>
+                            <span class="title">550 Décès sur lieu de travail par an</span>
+                        </div>
+
+                        <div class="parent-skill">
+                            <div class="skill">
+                                <div class="progress" data-progress="99">
+                                    <span class="progress-number"></span>
+                                </div>
+                            </div>
+                            <span class="title">99% de taux de réussite</span>
+                        </div>
+
+                        <div class="parent-skill">
+                            <div class="skill">
+                                <div class="progress" data-progress="90">
+                                    <span class="progress-number"></span>
+                                </div>
+                            </div>
+                            <span class="title">97% de taux de statisafaction sur nos formations</span>
+                        </div>
+
+                    </article>
+                </div>
+
+
+                <script src="javascript/skill.js"></script>
+
+
+
+                <div class="blob"></div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+
+        /* COMPETENCE */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+        #competence article {
+            /*width: 80%;*/
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            /*margin: unset auto;*/
+            margin-bottom: 30px;
+        }
+
+        #competence .parent-skill {
+            width: 200px;
+            height: auto;
+        }
+
+        #competence .skill {
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+            -webkit-border-radius: 100%;
+            -moz-border-radius: 100%;
+            -ms-border-radius: 100%;
+            -o-border-radius: 100%;
+            /*box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;*/
+            background-color: conic-gradient(#f9004d 10%, #212428 0);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.2s ease-out;
+            will-change: transform;
+        }
+
+        #competence .skill:hover {
+            transform: scale(1.1);
+        }
+
+        #competence .progress {
+            width: 95%;
+            height: 95%;
+            border-radius: 100%;
+            -webkit-border-radius: 100%;
+            -moz-border-radius: 100%;
+            -ms-border-radius: 100%;
+            -o-border-radius: 100%;
+            background: #c9997e;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #competence .progress-number {
+            font-family: 'Poppins', sans-serif;
+            color: white;
+            font-size: 2rem;
+        }
+
+        #competence .title {
+            font-family: 'Poppins', sans-serif;
+            color: white;
+            font-size: 2rem;
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+
+    </style>
+
+<script>
+    'use strict';
+
+    function progressBarAndCountNumber () {
+        const progress = document.querySelectorAll('.progress');
+        let count = 0;
+        // You must put the maximum number in the MAX variable.
+        let MAX = 80;
+
+        let run = setInterval(() => {
+            count++;
+            progress.forEach(element => {
+                if (count <= element.dataset.progress) {
+                    element.parentElement.style.background = `conic-gradient(gray ${count}%, rgb(196, 198, 200) 0)`;
+                    // element.firstElementChild.textContent = `${count}%`;
+                };
+                if (count == MAX) {
+                    clearInterval(run);
+                };
+            });
+        }, 20);
+    }
+
+    progressBarAndCountNumber();
+</script>
+
+
+
     
 </div>
