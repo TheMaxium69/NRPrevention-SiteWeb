@@ -1,7 +1,7 @@
 header .grey{
     height: 100px;
     width: 100%;
-    background-color: rgb(186, 186, 186);
+    background-color: rgb( 220, 223, 226);
     margin-top: 20px;
 }
 
@@ -9,8 +9,25 @@ header .grey{
 
 .margin-header{
     text-align: center;
-    margin-top: -55px;
+    margin-top: -70px;
     font-weight: 900;
-    font-size: 80px;
+    font-size: 100px;
     color: rgb(198, 147, 105);
+}
+
+
+#displayback-formation{
+    background-image: url(../assets/Presentation_16_9_1920x1080_px.jpeg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 10%;
+}
+
+
+.opacity-rigth{
+    background-color: rgb( 220, 223, 226);
+    width: 300px;
+    height: 460px;
+    margin-top: 20px;
 }

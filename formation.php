@@ -9,6 +9,14 @@ head($page); ?>
 <h1 class="margin-header">NR PREVENTION</h1>
  </header>
 
+
+<div id="displayback-formation">
+    <div class="opacity-rigth">
+        
+    </div>
+</div>
+
+
 <body>
 
 
