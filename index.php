@@ -170,61 +170,7 @@ head($page); ?>
                 </div>
             </div>
         </div>
-        <section id="sectionQ1">
-            <div class="container">
-                <!-- 3 cases design -->
-                <div> <!-- container si je touche pas les bords pas de container si je touche les bords)
-                    <h2>MON TITRE</h2>-->
-                    <div class="row p-0 m-0"> <!-- ça aligne -->
-                        <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                            <div class="rectangledesign rectanglecolor3">
-                                <img class="img-fluid" src="./assets/Logo-Qualiopi.png" alt="Logo Qualiopi">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="sectionQ2">
-            <!-- Qualiopi -->
-            <div class="container"> <!-- container si je touche pas les bords pas de container si je touche les bords)
-                    <h2>MON TITRE</h2>-->
-                <div class="row justify-content-between"> <!-- ça aligne -->
-                    <div class="col-lg-3"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class="border d-flex justify-content-center">
-                            <img src="https://placehold.co/150x150" height="150px" width="150px" alt="kc">
-                        </div>
-                        <div class="border d-flex justify-content-center">
-                            <p class="text-center">620 000+ Nombre d'AT sur lieu de travail par an</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class="border d-flex justify-content-center">
-                            <img src="https://placehold.co/150x150" height="150px" width="150px" alt="kc">
-                        </div>
-                        <div class="border d-flex justify-content-center">
-                            <p class="text-center">550 Décès sur lieu de travail par an </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class="border d-flex justify-content-center">
-                            <img src="https://placehold.co/150x150" height="150px" width="150px" alt="kc">
-                        </div>
-                        <div class="border d-flex justify-content-center">
-                            <p class="text-center">99% de taux de réussite</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class="border d-flex justify-content-center">
-                            <img src="https://placehold.co/150x150" height="150px" width="150px" alt="kc">
-                        </div>
-                        <div class="border d-flex justify-content-center">
-                            <p class="text-center">97% de taux de satisfaction sur nos formations</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <?php qualiopi(); ?>
         <section id="sectionCD">
             <!-- Calendrier/Devis -->
             <div class="container"> <!-- container si je touche pas les bords pas de container si je touche les bords)
