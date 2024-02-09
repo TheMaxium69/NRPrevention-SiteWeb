@@ -24,7 +24,7 @@ body {
 }
 
 #sectionQ2 {
-    background-color: #d6a315;
+    background-color: rgb(201, 153, 126);
 }
 
 #sectionQ2 .p {
@@ -37,16 +37,14 @@ body {
 }
 
 .brown-bar {
-    background-color: #8B4513;
-    /* A modifier plus tard !! */
+    background-color: rgb(130, 79, 61);
     height: 20px;
     width: 100%;
 
 }
 
 .gray-bar {
-    background-color: #302e2e;
-    /* A modifier plus tard !! */
+    background-color: rgb(115, 115, 115);
     height: 20px;
     width: 75%;
     margin-top: 30px;
@@ -58,7 +56,7 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 450px;
-    color: #e6e7e8;
+    color: rgb(240, 240, 240);
     position: absolute;
     left: -33px;
     z-index: 1;
@@ -77,18 +75,15 @@ body {
 }
 
 .rectanglecolor1 {
-    background-color: #3f3f3f;
-    /* A modifier plus tard !! */
+    background-color: rgb(187, 187, 187);
 }
 
 .rectanglecolor2 {
-    background-color: #d6a315;
-    /* A modifier plus tard !! */
+    background-color: rgb(201, 153, 126);
 }
 
 .rectanglecolor3 {
-    background-color: #4d4b49;
-    /* A modifier plus tard !! */
+    background-color: rgb(187, 187, 187);
     padding: 12%;
     margin: 12%;
     position: relative;
@@ -101,7 +96,7 @@ body {
     font-weight: bold;
     position: relative;
     left: 70px;
-    color: rgb(112, 110, 111);
+    color: rgb(115, 115, 115);
 }
 
 .imageFormation {}
@@ -116,4 +111,34 @@ body {
 
 .custom-width {
     width: 20%;
+}
+
+.fontOrange {
+    color: rgb(233, 91, 42);
+    font-size: larger;
+}
+
+.imgF1 {
+    background: url(../assets/page-9.jpeg);
+    height: 400px;
+}
+
+.imgF2 {
+    background: url(../assets/postures.jpeg);
+    height: 400px;
+}
+
+.imgF3 {
+    background: url(../asset/dfdfg.jpeg);
+    height: 400px;
+}
+
+.imgF4 {
+    background: url(../assets/defib.jpeg);
+    height: 400px;
+}
+
+.imgF5 {
+    background: url(../assets/page-5.jpeg);
+    height: 400px;
 }
