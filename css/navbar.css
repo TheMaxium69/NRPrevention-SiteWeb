@@ -62,3 +62,6 @@ header li img{
     color: rgb(242, 114, 9);
 }
 
+.bg-body-tertiary{
+    --bs-bg-opacity: 0;
+}
