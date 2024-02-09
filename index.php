@@ -14,8 +14,8 @@ head($page); ?>
 
                 <div class="row"> <!-- ça aligne -->
                     <div class="col-lg-4"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class="d-flex justify-content-center">
-                            <img src="./assets/deggr.png" class="m-3" height="200px" width="200px" alt="kc">
+                        <div class="d-flex justify-content-center img1">
+
                         </div>
                         <div class="d-flex justify-content-center m-3">
                             <p class="fontOrange">Accompagnement</p>
@@ -25,22 +25,22 @@ head($page); ?>
                         </div>
                     </div>
                     <div class="col-lg-4 border-end border-start"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class=" d-flex justify-content-center">
-                            <img src="./assets/iohni.png" class="m-3" height="200px" width="200px" alt="deggr">
+                        <div class=" d-flex justify-content-center img2">
+
                         </div>
                         <div class="d-flex justify-content-center m-3">
-                        <p class="fontOrange">Compétences</p>
+                            <p class="fontOrange">Compétences</p>
                         </div>
                         <div class="m-3">
                             Notre objectif est d'apporter à vos collaborateurs les compétences nécessaires en matière de secourisme et/ou de sécurité incendie afin de pouvoir intervenir rapidement et efficacement.
                         </div>
                     </div>
                     <div class="col-lg-4"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class="d-flex justify-content-center">
-                            <img src="./assets/sqfze.png" class="m-3" height="200px" width="200px" alt="sqfze">
+                        <div class="d-flex justify-content-center img3">
+
                         </div>
                         <div class="d-flex justify-content-center m-3">
-                        <p class="fontOrange">Formation</p>
+                            <p class="fontOrange">Formation</p>
                         </div>
                         <div class="m-3">
                             Nos formations sont dispensés par des professionnels de l'incendie et du secourisme. Elles sont composées d'apports théoriques interactifs et de participatifs ainsi que d'études de cas et de mises en pratique.
@@ -110,47 +110,47 @@ head($page); ?>
         </div>
         <section id="sectionF">
             <!-- FORMATIONS -->
-            <div class="container"> <!-- container si je touche pas les bords pas de container si je touche les bords)
+            <div class="container-fluid"> <!-- container si je touche pas les bords pas de container si je touche les bords)
                     <h2>MON TITRE</h2>-->
-                <div class="row d-flex justify-content-around imageFormation"> <!-- ça aligne -->
-                    <div class="col-lg-2 custom-width"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class="border d-flex justify-content-center imgF1">
+                <div class="row d-flex justify-content-evenly imageFormation"> <!-- ça aligne -->
+                    <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
+                        <div class="imgF1">
 
                         </div>
-                        <div class="border d-flex justify-content-center">
-                            <p class="text-start fontOrange">Formation <br> Incendie</p>
+                        <div class="d-flex justify-content-center">
+                            <p class="text-center fontOrange">Formation <br> Incendie</p>
                         </div>
                     </div>
-                    <div class="col-lg-2 custom-width"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class="border imgF2">
+                    <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
+                        <div class="imgF2">
 
                         </div>
-                        <div class="border d-flex justify-content-center">
-                            <p class="text-start fontOrange">Formation <br> Geste et posture</p>
+                        <div class="d-flex justify-content-center">
+                            <p class="text-center fontOrange">Formation <br> Geste et posture</p>
                         </div>
                     </div>
-                    <div class="col-lg-2 custom-width"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class="border imgF3">
+                    <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
+                        <div class="imgF3">
 
                         </div>
-                        <div class="border d-flex justify-content-center">
-                            <p class="text-start fontOrange">Formation <br> SST</p>
+                        <div class="d-flex justify-content-center">
+                            <p class="text-center fontOrange">Formation <br> SST</p>
                         </div>
                     </div>
-                    <div class="col-lg-2 custom-width"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class="border imgF4">
+                    <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
+                        <div class="imgF4">
 
                         </div>
-                        <div class="border d-flex justify-content-center">
-                            <p class="text-start fontOrange">Formation <br> Défibrilateur</p>
+                        <div class="d-flex justify-content-center">
+                            <p class="text-center fontOrange">Formation <br> Défibrilateur</p>
                         </div>
                     </div>
-                    <div class="col-lg-2 custom-width"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class="border imgF5">
+                    <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
+                        <div class="imgF5">
 
                         </div>
-                        <div class="border d-flex justify-content-center">
-                            <p class="text-start fontOrange">Formation <br>MAC SST</p>
+                        <div class="d-flex justify-content-center">
+                            <p class="text-center fontOrange">Formation <br>MAC SST</p>
                         </div>
                     </div>
                 </div>
@@ -195,7 +195,7 @@ head($page); ?>
                             <img src="https://placehold.co/150x150" height="150px" width="150px" alt="kc">
                         </div>
                         <div class="border d-flex justify-content-center">
-                            <p>TEST</p>
+                            <p class="text-center">620 000+ Nombre d'AT sur lieu de travail par an</p>
                         </div>
                     </div>
                     <div class="col-lg-3"> <!-- On copie ça le nombre de fois ou on a besoin -->
@@ -203,7 +203,7 @@ head($page); ?>
                             <img src="https://placehold.co/150x150" height="150px" width="150px" alt="kc">
                         </div>
                         <div class="border d-flex justify-content-center">
-                            <p>TEST</p>
+                            <p class="text-center">550 Décès sur lieu de travail par an </p>
                         </div>
                     </div>
                     <div class="col-lg-3"> <!-- On copie ça le nombre de fois ou on a besoin -->
@@ -211,7 +211,7 @@ head($page); ?>
                             <img src="https://placehold.co/150x150" height="150px" width="150px" alt="kc">
                         </div>
                         <div class="border d-flex justify-content-center">
-                            <p>TEST</p>
+                            <p class="text-center">99% de taux de réussite</p>
                         </div>
                     </div>
                     <div class="col-lg-3"> <!-- On copie ça le nombre de fois ou on a besoin -->
@@ -219,7 +219,7 @@ head($page); ?>
                             <img src="https://placehold.co/150x150" height="150px" width="150px" alt="kc">
                         </div>
                         <div class="border d-flex justify-content-center">
-                            <p>TEST</p>
+                            <p class="text-center">97% de taux de satisfaction sur nos formations</p>
                         </div>
                     </div>
                 </div>
@@ -230,14 +230,18 @@ head($page); ?>
             <div class="container"> <!-- container si je touche pas les bords pas de container si je touche les bords)
                     <h2>MON TITRE</h2>-->
                 <div class="row"> <!-- ça aligne -->
-                    <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class="border d-flex justify-content-center">
-                            <img class="img-fluid" src="./assets/calendrier.png" alt="kc">
-                        </div>
-                    </div>
-                    <div class="col-lg-4"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class="border d-flex justify-content-center">
-                            <h2>Calendrier</h2>
+                    <div class="col-lg-6 d-flex align-items-center"> <!-- On copie ça le nombre de fois ou on a besoin -->
+                        <div class="row">
+                            <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
+                                <div class="border d-flex justify-content-center">
+                                    <img class="img-fluid" src="./assets/calendrier.png" height="200px" width="200px" alt="kc">
+                                </div>
+                            </div>
+                            <div class="col-lg-6"> <!-- On copie ça le nombre de fois ou on a besoin -->
+                                <div class="border d-flex justify-content-center">
+                                    <h2>Calendrier</h2>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
@@ -245,7 +249,7 @@ head($page); ?>
                             <img class="img-fluid" src="./assets/calcul.png" alt="kc">
                         </div>
                     </div>
-                    <div class="col-lg-4"> <!-- On copie ça le nombre de fois ou on a besoin -->
+                    <div class="col-lg-3"> <!-- On copie ça le nombre de fois ou on a besoin -->
                         <div class="border d-flex justify-content-center">
                             <h2>Devis</h2>
                         </div>
