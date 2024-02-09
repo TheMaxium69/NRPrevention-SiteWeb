@@ -37,16 +37,8 @@ head($page); ?>
     </div>
 </div>
 
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-
 <?php qualiopi(); ?>
 
-
-=======
->>>>>>> afc762b1f05d23af25115eab63a749829766fc16
->>>>>>> Stashed changes
 <body>
 
 

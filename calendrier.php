@@ -6,17 +6,6 @@ head($page); ?>
     <header> <?php navbar($page); ?> </header>
 
 
-<<<<<<< Updated upstream
-    <main>
-        <div class="displayback-calendar">
-
-        </div>
-
-
-
-    </main>
-=======
-<<<<<<< HEAD
 <main>
     <div class= "displayback-calendar">
 
