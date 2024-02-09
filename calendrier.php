@@ -6,77 +6,80 @@ head($page); ?>
     <header> <?php navbar($page); ?> </header>
 
 
-<main>
-    <div class= "displayback-calendar">
+    <main>
+        <div class="displayback-calendar">
 
-    </div>
-
-
-
-</main>
+        </div>
 
 
 
-
-</body></html>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </main>
 
 
     <footer> <?php footer(); ?> </footer>
+
 </body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer> <?php footer(); ?> </footer>
+</body>
+
 </html>
