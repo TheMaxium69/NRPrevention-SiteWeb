@@ -1,6 +1,21 @@
-.blockCN{
+.blockCN {
     height: 400px;
     width: 50%;
     background-color: rgb(201, 153, 126);
     margin-top: 50px;
+    padding: 5%;
+    display: grid;
+}
+
+.imgCN {
+    height: 250px;
+    background: url();
+}
+
+.fontForm {
+    margin-top: 7%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: rgb(233, 91, 42);
 }
