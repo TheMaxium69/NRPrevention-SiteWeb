@@ -1,5 +1,5 @@
 <?php
-function navbar($page)
+function qualiopi()
 {
 
     require_once "./composant/qualiopi.phtml";
