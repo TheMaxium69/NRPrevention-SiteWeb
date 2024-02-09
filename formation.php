@@ -12,7 +12,10 @@ head($page); ?>
 
 <div id="displayback-formation">
     <div class="opacity-rigth">
-        
+        <h2>Présentation</h2>
+        <br>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus iste laborum nihil quasi, impedit, voluptate quibusdam sit inventore, doloribus earum rerum? Harum minus veritatis alias deleniti repellendus consequatur obcaecati odit.</p>
     </div>
 </div>
 

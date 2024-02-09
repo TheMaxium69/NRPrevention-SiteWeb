@@ -22,12 +22,24 @@ header .grey{
     background-repeat: no-repeat;
     background-size: 100%;
     margin-top: 10%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 
 .opacity-rigth{
-    background-color: rgb( 220, 223, 226);
-    width: 300px;
+    background-color: rgb( 220, 223, 226,0.5);
+    width: 550px;
     height: 460px;
     margin-top: 20px;
+    margin-right: 40px;
+}
+
+.opacity-rigth h2{
+    text-align: center;
+}
+
+.opacity-rigth p{
+    text-align: center;
+    
 }
