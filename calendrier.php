@@ -21,7 +21,10 @@ head($page); ?>
                     
                 </div>
 
-                <div class="lieu"></div>
+                <div class="lieu">
+                    <h3>Lieu</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti nisi iusto odio, aliquid eum quod maiores nulla </p>
+                </div>
 
             </div>
             <div id="formation-incendie">

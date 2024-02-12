@@ -39,16 +39,28 @@
 
 .lieu{
     background-color: rgb(130, 79, 61);
-    height: 250px;
+    height: 300px;
     width: 250px;
+    text-align: center;
 }
 
-
+.lieu h3, .lieu p {
+    color: aliceblue;
+    margin-top: 40px;
+}
 
 .titre-formation{
-    background-color: rgb(118, 112, 112);
-    height: 150px;
-    width: 100px;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 200px;
+    align-items: center;
+    display: flex;
+    margin-left: -70px;
+}
+
+.titre-formation h3{
+    text-align: center;
+    
 }
 
 .contenu-formation{
