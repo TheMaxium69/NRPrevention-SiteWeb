@@ -32,9 +32,24 @@ header li img{
 }
 
 .logo-header{
-    width: 280px;
-    height: 100px;
+
 }
+
+@media screen and (min-width: 400px) and (max-width: 991px) {
+    .logo-header {
+        width: 140px;
+        height: 50px;
+        margin-top: 1%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .logo-header {
+        width: 280px;
+        height: 100px;
+    }
+}
+
 
 #displayback{
     background-image: url("../assets/entete.png");
@@ -64,4 +79,20 @@ header li img{
 
 .bg-body-tertiary{
     --bs-bg-opacity: 0;
+}
+
+/* Ajoutez ces styles à votre feuille de style CSS */
+@media screen and (max-width: 1155px) {
+    .navbar-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar-nav li {
+        margin: 15px 0;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+    }
 }
