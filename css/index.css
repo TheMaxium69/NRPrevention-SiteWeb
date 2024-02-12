@@ -14,28 +14,6 @@ body {
     padding-bottom: 2%;
 }
 
-#section {
-    padding: 5%;
-}
-
-#sectionQ2 {
-    padding-top: 5%;
-    padding-bottom: 2%;
-}
-
-#sectionQ2 {
-    background-color: rgb(201, 153, 126);
-}
-
-#sectionQ2 p {
-    color: aliceblue;
-}
-
-#sectionCL .fontCadreLegale {
-    font-size: 75px;
-    font-weight: bold;
-}
-
 .brown-bar {
     background-color: rgb(130, 79, 61);
     height: 20px;

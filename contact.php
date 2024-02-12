@@ -61,13 +61,13 @@ head($page); ?>
                     <div class="row">
                         <div class="form-group col-lg-12 mt-4">
                             <label for="societe"></label>
-                            <input type="text" class="form-control" id="societe" placeholder="SOCIETE">
+                            <input type="text" class="form-control" id="societe" placeholder="SOCIETE*">
                         </div>
                     </div>
                     <div class="row">
                         <div class="form-group col-lg-12 mt-4">
                             <label for="message"></label>
-                            <textarea class="form-control" id="message" rows="6" placeholder="MESSAGE"></textarea>
+                            <textarea class="form-control" id="message" rows="6" placeholder="MESSAGE*"></textarea>
                         </div>
                     </div>
                     <br>
