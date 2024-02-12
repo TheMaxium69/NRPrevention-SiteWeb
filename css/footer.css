@@ -60,3 +60,52 @@
 .footer-style a:hover {
     text-decoration: underline !important;
 }
+
+
+@media screen and (max-width: 480px) {
+    .footer-style {
+        flex-direction: column; 
+    }
+    
+    .brown-div, .white-div, .grey-div {
+        width: 100%; 
+        max-width: none; 
+    }
+    
+    .white-div {
+        margin-left: 0;
+    }
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .footer-style {
+        flex-wrap: wrap; 
+    }
+
+    .brown-div, .white-div, .grey-div {
+        width: 50%; 
+        max-width: none; 
+    }
+}
+
+
+@media screen and (min-width: 769px) {
+    .footer-style {
+        justify-content: space-between; 
+    }
+    
+    .brown-div {
+        width: 45%; 
+    }
+    
+    .white-div {
+        width: 10%; 
+        margin-left: 80px; 
+    }
+    
+    .grey-div {
+        width: 75%; 
+    }
+}
+
