@@ -18,7 +18,11 @@ head($page); ?>
                 <div class="titre-formation">
                         <h3>Formation Incendie</h3>
                     </div>
-                    
+                    <h4>Dates</h4>
+                                <p>Le 17/08/2022 au 18/08/2022</p>
+                                <p>Le 17/08/2022 au 18/08/2022</p>
+                                <p>Le 17/08/2022 au 18/08/2022</p>
+                                <p>Le 17/08/2022 au 18/08/2022</p>
                 </div>
 
                 <div class="lieu">
@@ -30,7 +34,9 @@ head($page); ?>
             <div id="formation-sst">
 
                 <div class="planning">
-                    <div class="titre-formation"></div>
+                    <div class="titre-formation">
+                    <h3>Formation SST</h3>
+                    </div>
                 </div>
                 <div class="calendar"></div>
 
@@ -40,7 +46,9 @@ head($page); ?>
             <div id="formation-defebrilateur">
 
                 <div class="planning">
-                    <div class="titre-formation"></div>
+                    <div class="titre-formation">
+                    <h3>Formation Defibrilateur</h3>
+                    </div>
                 </div>
                 <div class="formation"></div>
 
@@ -55,16 +63,20 @@ head($page); ?>
                     
                 </div>
 
-                <div class="lieu">
+                <div class="invisible">
                 </div>
 
             </div>
             <div id="formation-mac">
 
                 <div class="planning-mac">
-                    <div class="titre-formation"></div>
+                    <div class="titre-formation">
+                    <h3>Formation MAC SST</h3>
+                    </div>
                 </div>
-                <div class="devis"></div>
+                <div class="devis">
+                    <h4>Devis</h4>
+                </div>
 
             </div>
         </div>
