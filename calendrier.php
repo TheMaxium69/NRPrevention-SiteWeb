@@ -17,10 +17,12 @@ head($page); ?>
     <div id="formation-incendie">
         
         <div class="planning">
+            
         <div class="titre-formation">
             <h3>Formation Incendie</h3>
         </div>
         </div>
+        
         <div class="lieu"></div>
         
     </div>
