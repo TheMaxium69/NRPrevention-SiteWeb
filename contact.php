@@ -9,14 +9,17 @@ head($page); ?>
     <main>
 
         <section id="sectionCN">
-            <div class="blockCN ">
-                <div class="col-lg-4">
-                    <h2 class="text-white">CONTACTEZ-NOUS</h2>
+            <div class="container-fluid p-0">
+                <div class="row">
+                    <div class="col-lg-6 bg-warning">
+                        <h2 class="d-flex justify-content-center text-white p-4">CONTACTEZ NOUS</h2>
+                        <p class="d-flex justify-content-center p-4">Notre équipe se tient à votre disposition pour <br> toutes demandes ou conseils, n'hésitez pas.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <p class="d-flex justify-content-center">Notre équipe se tient à votre disposition pour <br> toutes demandes ou conseils, n'hésitez pas.</p>
+                    </div>
+
                 </div>
-                <div class="">
-                    <p class="">Notre équipe se tient à votre disposition pour toutes demandes ou conseils, n'hésitez pas.</p>
-                </div>
-            </div>
         </section>
         <h2 class="fontForm">Ecrivez-nous un message</h2>
         <section class="sectionForm bgForm">
@@ -69,7 +72,7 @@ head($page); ?>
                     </div>
                     <br>
                     <div class="row">
-                        <div class="form-group col-lg-12">
+                        <div class="form-group col-lg-12 pb-4">
                             <button type="submit" class="btn btn-primary">Envoyer</button>
                         </div>
                     </div>
