@@ -27,28 +27,44 @@ head($page); ?>
                 </div>
 
             </div>
-            <div id="formation-incendie">
+            <div id="formation-sst">
 
                 <div class="planning">
                     <div class="titre-formation"></div>
                 </div>
-                <div class="lieu"></div>
+                <div class="calendar"></div>
 
             </div>
-            <div id="formation-incendie">
+
+
+            <div id="formation-defebrilateur">
 
                 <div class="planning">
                     <div class="titre-formation"></div>
                 </div>
-                <div class="lieu"></div>
+                <div class="formation"></div>
+
+            </div>  
+
+
+            <div id="formation-geste">
+                <div class="planning-geste">
+                <div class="titre-formation">
+                        <h3>Formation Geste et posture</h3>
+                    </div>
+                    
+                </div>
+
+                <div class="lieu">
+                </div>
 
             </div>
-            <div id="formation-incendie">
+            <div id="formation-mac">
 
-                <div class="planning">
+                <div class="planning-mac">
                     <div class="titre-formation"></div>
                 </div>
-                <div class="lieu"></div>
+                <div class="devis"></div>
 
             </div>
         </div>

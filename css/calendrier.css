@@ -25,8 +25,31 @@
     display: flex;
     justify-content: space-evenly;
     margin-top: 150px;
-    margin-bottom: -60px;
+    margin-bottom: 60px;
 }
+
+#formation-defebrilateur{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#formation-geste{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+#formation-mac{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+#formation-sst{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 
 
 .planning{
@@ -35,6 +58,24 @@
     width: 70%;
     display: flex;
     align-items: center;
+}
+
+.planning-geste{
+    background-color: rgb( 220, 223, 226);
+    height: 300px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin-top: -150px;
+}
+
+.planning-mac{
+    background-color: rgb( 220, 223, 226);
+    height: 300px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin-top: -95px;
 }
 
 .lieu{
@@ -69,3 +110,22 @@
     width: 55%;
 }
 
+.calendar{
+    background-color: rgb(130, 79, 61);
+    height: 350px;
+    width: 250px;
+    margin-bottom: 50px;
+}
+
+.formation{
+    background-color: rgb(130, 79, 61);
+    height: 500px;
+    width: 250px;
+    margin-bottom: 50px;
+}
+
+.devis{
+    background-color: rgb(130, 79, 61);
+    height: 100px;
+    width: 250px;
+}
