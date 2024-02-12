@@ -39,19 +39,20 @@
 
 .lieu{
     background-color: rgb(130, 79, 61);
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
 }
 
+
+
 .titre-formation{
-    background-color: white;
-    margin-left: -50px;
+    background-color: rgb(118, 112, 112);
     height: 150px;
-    width: 250px;
-    display: flex;
-    align-items: center;
 }
 
 .contenu-formation{
-    
+    background-color: rgb( 220, 223, 226);
+    height: 250px;
+    width: 55%;
 }
+
