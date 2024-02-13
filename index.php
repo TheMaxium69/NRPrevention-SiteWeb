@@ -14,7 +14,7 @@ head($page); ?>
 
                 <div class="row"> <!-- ça aligne -->
                     <div class="col-lg-4"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class="d-flex justify-content-center img1 up3d">
+                        <div class="d-flex justify-content-center img1 up3d m-3">
 
                         </div>
                         <div class="d-flex justify-content-center m-3">
@@ -24,8 +24,8 @@ head($page); ?>
                             <p> Spécialiste de la prévention et de la sécurité en entreprises,nous vous accompagnons dans la formation de vos salariés en satsifaisant aux obligations légales et règlementaires en vigueur en fonction de vos besoins.</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 border-end border-start borderCPASBIEN"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class=" d-flex justify-content-center img2 up3d">
+                    <div class="col-lg-4 border-end border-start border-bottom border-top borderCPASBIEN"> <!-- On copie ça le nombre de fois ou on a besoin -->
+                        <div class=" d-flex justify-content-center img2 up3d m-3">
 
                         </div>
                         <div class="d-flex justify-content-center m-3">
@@ -36,7 +36,7 @@ head($page); ?>
                         </div>
                     </div>
                     <div class="col-lg-4"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class="d-flex justify-content-center img3 up3d">
+                        <div class="d-flex justify-content-center img3 up3d m-3">
 
                         </div>
                         <div class="d-flex justify-content-center m-3">
@@ -54,11 +54,11 @@ head($page); ?>
             <div> <!-- container si je touche pas les bords pas de container si je touche les bords)
                     <h2>MON TITRE</h2>-->
                 <div class="row justify-content-end p-0 m-0"> <!-- ça aligne -->
-                    <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
+                    <div class="col-lg-2 respRec"> <!-- On copie ça le nombre de fois ou on a besoin -->
                         <div class="rectangledesign rectanglecolor1">
                         </div>
                     </div>
-                    <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
+                    <div class="col-lg-2 respRec"> <!-- On copie ça le nombre de fois ou on a besoin -->
                         <div class="rectangledesign rectanglecolor2">
                         </div>
                     </div>
@@ -171,17 +171,17 @@ head($page); ?>
             </div>
         </div>
         <?php qualiopi(); ?>
-    <div class="calendrier-block">
-        <div class="calendrier-block1 scaleH" onclick="window.location.href = 'calendrier.php';">
-            <img src="./assets/calendrier.png" alt="calendrier">
-            <h3>Calendrier</h3>
+        <div class="calendrier-block">
+            <div class="calendrier-block1 scaleH" onclick="window.location.href = 'calendrier.php';">
+                <img src="./assets/calendrier.png" alt="calendrier">
+                <h3>Calendrier</h3>
             </div>
             <div class="calendrier-block2 scaleH" onclick="window.location.href = 'contact.php';">
-            <img src="./assets/calcul.png" alt="devis">
-            <h3>Devis</h3>
+                <img src="./assets/calcul.png" alt="devis">
+                <h3>Devis</h3>
             </div>
-            </div>
-    <footer> <?php footer(); ?> </footer>
+        </div>
+        <footer> <?php footer(); ?> </footer>
 
 </body>
 

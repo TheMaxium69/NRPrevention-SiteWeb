@@ -81,7 +81,6 @@ header li img{
     --bs-bg-opacity: 0;
 }
 
-/* Ajoutez ces styles à votre feuille de style CSS */
 @media screen and (max-width: 1155px) {
     .navbar-nav {
         flex-direction: column;
@@ -94,5 +93,11 @@ header li img{
 
     .navbar-collapse {
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .noBorder {
+        border: unset;
     }
 }

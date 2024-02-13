@@ -27,8 +27,8 @@
 
 /* Media queries pour les ajustements responsifs */
 
-/* Pour les petits écrans jusqu'à 768px */
-@media screen and (max-width: 768px) {
+/* Pour les petits écrans jusqu'à 1150px */
+@media screen and (max-width: 1150px) {
     #competence article {
         flex-direction: column; 
     }
