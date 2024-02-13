@@ -88,7 +88,7 @@
 }
 
 /* Pour les écrans de taille moyenne de 481px à 768px */
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (max-width: 1060px) {
     .footer-style {
         flex-direction: column;
     }
@@ -96,7 +96,7 @@
     .brown-div, .white-div, .grey-div {
         width: 100%; 
         max-width: none;
-        height: 60%; 
+        height: 30%; 
     }
 
     .footer-style img {
@@ -114,7 +114,7 @@
 
 
 /* Pour les écrans de grande taille à partir de 769px */
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1060px) {
     .footer-style {
         justify-content: space-between; 
     }
@@ -132,3 +132,53 @@
         width: 75%; 
     }
 }
+
+@media screen and (max-width: 1320px) {
+    .footer-style img {
+        width: 150px;
+        height: 155px;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .footer-style img {
+        display: none;
+    }
+}
+
+.grey-div-flex{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+@media screen and (max-width: 0px) {
+    .grey-div-flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    .grey-div-flex{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        position: absolute;
+        left: 30%;
+    }
+
+    .brown-div, .white-div, .grey-div {
+        width: 100%; 
+        max-width: none;
+        height: 60%; 
+    }
+
+
+
+}
+

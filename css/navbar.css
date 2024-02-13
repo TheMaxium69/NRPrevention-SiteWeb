@@ -107,7 +107,7 @@ header li img{
     --bs-bg-opacity: 0;
 }
 
-@media screen and (max-width: 1155px) {
+@media screen and (max-width: 1200px) {
     .navbar-nav {
         flex-direction: column;
         text-align: center;
