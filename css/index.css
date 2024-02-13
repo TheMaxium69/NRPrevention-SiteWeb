@@ -57,15 +57,13 @@ body {
 
 @media screen and (max-width: 991px) {
     #sectionCL .h2NR:before {
-        top: 1820px;
-        font-size: 375px;
+        display: none;
     }
 }
 
 @media screen and (max-width: 768px) {
     #sectionCL .h2NR:before {
-        top: 1950px;
-        font-size: 300px;
+        display: none;
     }
 }
 
@@ -110,7 +108,6 @@ body {
 .fontFormations {
     font-weight: bold;
     position: relative;
-    left: 70px;
     color: rgb(115, 115, 115);
 }
 
@@ -258,6 +255,17 @@ body {
     align-items: center;
 }
 
+@media (max-width: 991px) {
+
+    .borderCPASBIEN{
+        border-left: unset!important;
+        border-right: unset!important;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+}
+
 .calendrier-block2 img {
     height: 100px;
 }
@@ -294,10 +302,19 @@ body {
 }
 
 
-@media (max-width: 991px) {
+@media (max-width: 1300px) {
+
+    .respRecNone{
+        display: none;
+    }
+
+}
+
+@media (max-width: 1300px) {
 
     .respRec{
-        display: none;
+        display: flex;
+        justify-content: center;
     }
 
 }

@@ -54,15 +54,15 @@ head($page); ?>
             <div> <!-- container si je touche pas les bords pas de container si je touche les bords)
                     <h2>MON TITRE</h2>-->
                 <div class="row justify-content-end p-0 m-0"> <!-- ça aligne -->
-                    <div class="col-lg-2 respRec"> <!-- On copie ça le nombre de fois ou on a besoin -->
+                    <div class="col-lg-2 respRecNone"> <!-- On copie ça le nombre de fois ou on a besoin -->
                         <div class="rectangledesign rectanglecolor1">
                         </div>
                     </div>
-                    <div class="col-lg-2 respRec"> <!-- On copie ça le nombre de fois ou on a besoin -->
+                    <div class="col-lg-2 respRecNone"> <!-- On copie ça le nombre de fois ou on a besoin -->
                         <div class="rectangledesign rectanglecolor2">
                         </div>
                     </div>
-                    <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
+                    <div class="col-lg-2 respRec"> <!-- On copie ça le nombre de fois ou on a besoin -->
                         <div class="rectangledesign rectanglecolor1">
                         </div>
                     </div>

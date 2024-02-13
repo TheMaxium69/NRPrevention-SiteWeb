@@ -1,7 +1,7 @@
 <?php
 $host = "localhost";
-$userDB = "toor";
-$passDB = "toor";
+$userDB = "root";
+$passDB = "";
 $Database = "nrprevention";
 $ConnectDB = mysqli_connect($host, $userDB, $passDB, $Database);
 try{
