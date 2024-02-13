@@ -145,113 +145,87 @@
 
 @media screen and (min-width: 300px) and (max-width: 775px) {
 
-    .logo-lyon{
-        margin-left: unset !important;
-    }
-    
-    .displayback-calendar{
-        margin-top: 100px;
-        height: 400px;
-        background-size: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    
-    .margin-header-calendrier{
-        margin-top: -40px;
-        font-size: 60px;
-        letter-spacing: 2px;
+ /* Logo */
+ .logo-lyon {
+    margin-left: unset !important; /* Réinitialiser la marge à gauche */
+}
 
-    }
+/* Section .displayback-calendar */
+.displayback-calendar {
+    margin-top: 100px;
+    height: 400px;
+}
 
-    .comportement-div{
-        margin-bottom: 100px;
+/* Classe .margin-header-calendrier */
+.margin-header-calendrier {
+    margin-top: -40px;
+    font-size: 60px;
+    letter-spacing: 2px;
+}
 
-    }
+/* Classe .comportement-div */
+.comportement-div {
+    margin-bottom: 100px;
+}
 
-    .planning{
-        width: 100%;
-        display: flex;  
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 60px;
+/* Classes .planning, .planning-geste, .planning-mac */
+.planning,
+.planning-geste,
+.planning-mac {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
 
-    }
+/* Classe .lieu */
+.lieu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    .planning-geste{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: unset;
+/* Classe .titre-formation */
+.titre-formation {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    }
+/* Classe .contenu-formation */
+.contenu-formation {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    .planning-mac{
-        
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: unset;
+/* Classe .calendar */
+.calendar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    }
+/* Classe .formation */
+.formation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    .lieu{
-        
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-    }
-
-    .titre-formation{
-        
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-    }
-
-    .contenu-formation{
-        
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-    }
-
-    .calendar{
-        
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-    }
-
-    .formation{
-        
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-    }
-
-    .devis{
-        
-        width: 70%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-    }
+/* Classe .devis */
+.devis {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
     thead{
-        display: none;
 
     }
 
