@@ -139,39 +139,28 @@ body {
     background-size: 80%;
     background-position: center;
     background-repeat: no-repeat;
+    height: 400px;
 }
 
 @media screen and (min-width: 400px) and (max-width: 991px) {
     .img1 {
-        background-size: 30%;
-        height: 200px;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .img1 {
-        background-size: 80%;
-        height: 400px;
+        background-size: 60%;
+        height: 370px;
     }
 }
 
 .img2 {
     background: url(../assets/iohni.png);
+    background-size: 80%;
     background-position: center;
     background-repeat: no-repeat;
+    height: 400px;
 }
 
 @media screen and (min-width: 400px) and (max-width: 991px) {
     .img2 {
-        background-size: 30%;
-        height: 200px;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .img2 {
-        background-size: 80%;
-        height: 400px;
+        background-size: 60%;
+        height: 370px;
     }
 }
 
@@ -180,19 +169,13 @@ body {
     background-size: 80%;
     background-position: center;
     background-repeat: no-repeat;
+    height: 400px;
 }
 
 @media screen and (min-width: 400px) and (max-width: 991px) {
     .img3 {
-        background-size: 30%;
-        height: 200px;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .img3 {
-        background-size: 80%;
-        height: 400px;
+        background-size: 60%;
+        height: 370px;
     }
 }
 
@@ -269,13 +252,39 @@ body {
     margin-top: 50px;
 }
 
+@media (max-width: 991px) {
+
+    .calendrier-block{
+        display: unset !important;
+    }
+
+}
+
 .calendrier-block1 img {
     height: 100px;
+}
+
+@media (max-width: 991px) {
+
+    .calendrier-block1 img{
+        height: 75px;
+    }
+
 }
 
 .calendrier-block1 {
     display: flex;
     align-items: center;
+}
+
+@media (max-width: 991px) {
+
+    .calendrier-block1{
+        justify-content: center;
+        padding: 15px;
+        padding-top: 20px;
+    }
+
 }
 
 @media (max-width: 991px) {
@@ -293,9 +302,26 @@ body {
     height: 100px;
 }
 
+@media (max-width: 991px) {
+
+    .calendrier-block2 img{
+        height: 75px;
+    }
+
+}
+
 .calendrier-block2 {
     display: flex;
     align-items: center;
+}
+
+@media (max-width: 991px) {
+
+    .calendrier-block2{
+        justify-content: center;
+        padding: 15px;
+    }
+
 }
 
 .calendrier-block h3 {
@@ -303,6 +329,8 @@ body {
     flex-direction: row;
     margin-left: 100px;
 }
+
+
 
 @media (max-width: 991px) {
 

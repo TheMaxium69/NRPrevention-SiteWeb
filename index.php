@@ -166,7 +166,7 @@ head($page); ?>
                 <div class="col-lg-4">
                 </div>
                 <div class="col-lg-6">
-                    <div class="brown-bar"></div>
+                    <div class="brown-bar mb-4"></div>
                 </div>
             </div>
         </div>
