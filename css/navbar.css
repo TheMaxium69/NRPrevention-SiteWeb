@@ -27,26 +27,26 @@ header li .active{
 header li img{
 
     margin-top: -40px;
-    width: 111px;
 
 }
 
-.logo-header{
-
-}
-
-@media screen and (min-width: 400px) and (max-width: 991px) {
-    .logo-header {
-        width: 140px;
-        height: 50px;
-        margin-top: 1%;
-    }
-}
-
-@media screen and (min-width: 992px) {
+@media screen and (max-width: 991px) {
     .logo-header {
         width: 280px;
         height: 100px;
+        margin-top: 1%;
+        left: -5%;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 399px) {
+    .logo-header {
+        width: 145px;
+        height: 55px;
+        margin-top: 1%;
+        left: -15%;
+        position: relative;
     }
 }
 
@@ -59,17 +59,43 @@ header li img{
     background-size: cover;
 }
 
+@media screen and (max-width: 992px) {
+    #displayback {
+        height: 300px;
+    }
+}
+
 #displayback h1{
   width: 253px;
   text-align: center;
   font-weight: 900;
 }
 
+@media screen and (max-width: 576px) {
+    #displayback h1 {
+        width: 253px;
+        font-weight: 900;
+    }
+}
 
 #displayback div{
     left: 200px;
     position: absolute;
     top: 110px;
+}
+
+@media screen and (max-width: 576px) {
+    #displayback div {
+        left: 25px;
+        top: 110px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #displayback h1 {
+        width: 253px;
+        font-weight: 900;
+    }
 }
 
 
@@ -99,5 +125,22 @@ header li img{
 @media screen and (max-width: 991px) {
     .noBorder {
         border: unset;
+    }
+}
+
+.logo-burger-yes {
+    display: none;
+}
+
+@media screen and (max-width: 991px) {
+    .logo-burger-yes {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .logo-burger-no {
+        display: none;
     }
 }

@@ -24,14 +24,20 @@
 <?php } ?>
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-        <button class="navbar-toggler noBorder" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+  <div class="container-fluid">
 
-        <div class="collapse navbar-collapse justify-content-evenly" id="navbarNav">
-            <ul class="navbar-nav ">
+    <!-- Bouton de bascule pour le menu burger -->
+    <button class="navbar-toggler noBorder" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <!-- Logo centré avec les classes Bootstrap -->
+    <a class="navbar-brand mx-auto logo-burger-yes" href="#">
+      <img class="logo-header" src="./assets/efze-removebg-preview.png" alt="Logo">
+    </a>
+    <!-- Contenu de la barre de navigation -->
+    <div class="collapse navbar-collapse justify-content-evenly" id="navbarNav">
+      <ul class="navbar-nav ">
         <li class="nav-item">
           <a class="nav-link <?php if ($page == 1) {
                                 echo "active";
@@ -43,7 +49,7 @@
                               } ?>" href="./formation.php">Formations</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href=".">
+          <a class="nav-link logo-burger-no" href=".">
             <img class="logo-header" src="./assets/efze-removebg-preview.png" alt="Logo">
           </a>
 
