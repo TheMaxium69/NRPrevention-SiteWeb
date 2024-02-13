@@ -370,11 +370,20 @@ body {
 
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 577px) and (max-width: 991px) {
     .respPad {
         padding-left: 150px;
         padding-right: 150px;
         padding-top: 50px;
         padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .respPad {
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
 }
