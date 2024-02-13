@@ -98,3 +98,56 @@ header .grey{
 .h2-flex h2{
     font-size: 300%;
 }
+
+
+@media screen and (max-width: 1000px) {
+    .margin-header {
+        margin-top: -30px; 
+        font-size: 40px; 
+    }
+
+    #displayback-formation {
+        margin-top: 5%; /
+    }
+
+    .opacity-rigth {
+        width: 90%; 
+        margin: 20px auto; 
+        height: auto; 
+        padding: 20px; 
+    }
+
+    .formation-card-brown,
+    .formation-card-brown2,
+    .formation-card-brown3 {
+        width: 90%; 
+        margin: 10px auto; 
+        height: auto;
+    }
+
+    .h2-flex {
+        margin-top: 30px; 
+        margin-bottom: 20px; 
+    }
+}
+
+
+@media screen and (min-width: 769px) {
+    .margin-header {
+        margin-top: -50px; 
+        font-size: 60px; 
+    }
+
+    #displayback-formation {
+        margin-top: 8%; 
+    }
+
+    .opacity-rigth {
+        margin-top: 40px; 
+    }
+
+    .h2-flex {
+        margin-top: 70px; 
+        margin-bottom: 40px; 
+    }
+}
