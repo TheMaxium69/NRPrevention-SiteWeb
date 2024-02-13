@@ -49,11 +49,10 @@ head($page); ?>
 
                 </div>
                 <div class="lieu">
-                    <div style="border-radius: 100px;
+                    <div class="logo-lyon" style="border-radius: 100px;
   height: 100px;
   width: 100px;
   background: red;
-  position: absolute;
   margin-top: -50px;
   margin-left: 182px;
   background-image: url('https://www.city-lyon.fr/wp-content/uploads/sites/137/2013/12/lyon-meilleur-pire-arrondissements.jpg');

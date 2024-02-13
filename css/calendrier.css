@@ -143,3 +143,122 @@
 }
 
 
+@media screen and (min-width: 400px) and (max-width: 768px) {
+
+    .logo-lyon{
+        margin-left: unset !important;
+    }
+    
+    .displayback-calendar{
+        margin-top: 100px;
+        height: 400px;
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .margin-header-calendrier{
+        margin-top: -40px;
+        font-size: 60px;
+        letter-spacing: 2px;
+
+    }
+
+    .comportement-div{
+        margin-bottom: 100px;
+
+    }
+
+    .planning{
+        width: 100%;
+        display: flex;  
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 60px;
+
+    }
+
+    .planning-geste{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: unset;
+
+    }
+
+    .planning-mac{
+        
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: unset;
+
+    }
+
+    .lieu{
+        
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .titre-formation{
+        
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .contenu-formation{
+        
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .calendar{
+        
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .formation{
+        
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .devis{
+        
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    thead{
+        display: none;
+        
+    }
+}
+
+
+
+
+
+
+
