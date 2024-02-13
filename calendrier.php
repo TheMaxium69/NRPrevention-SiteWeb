@@ -15,16 +15,39 @@ head($page); ?>
             
             <div id="formation-incendie">
                 <div class="planning">
-                <div class="titre-formation">
+
+                    <div class="titre-formation">
                         <h3>Formation Incendie</h3>
                     </div>
-                    <h4>Dates</h4>
-                                <p>Le 17/08/2022 au 18/08/2022</p>
-                                <p>Le 17/08/2022 au 18/08/2022</p>
-                                <p>Le 17/08/2022 au 18/08/2022</p>
-                                <p>Le 17/08/2022 au 18/08/2022</p>
-                </div>
 
+                    <table style="text-align: center; width: 70%;margin: auto;">
+                        <thead>
+                            <tr>
+                                <th scope="col">Date</th>
+                                <th scope="col">Durée</th>
+                                <th scope="col">Horaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Le 17/08/2022 au 18/08/2022</td>
+                                <td>2 jours</td>
+                                <td>9h-12h/13h-17h</td>
+                            </tr>
+                            <tr>
+                                <td>Le 17/08/2022 au 18/08/2022</td>
+                                <td>2 jours</td>
+                                <td>9h-12h/13h-17h</td>
+                            </tr>
+                            <tr>
+                                <td>Le 17/08/2022 au 18/08/2022</td>
+                                <td>2 jours</td>
+                                <td>9h-12h/13h-17h</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
                 <div class="lieu">
                     <h3>Lieu</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti nisi iusto odio, aliquid eum quod maiores nulla </p>
@@ -37,6 +60,32 @@ head($page); ?>
                     <div class="titre-formation">
                     <h3>Formation SST</h3>
                     </div>
+                    <table style="text-align: center; width: 70%;margin: auto;">
+                        <thead>
+                        <tr>
+                            <th scope="col">Date</th>
+                            <th scope="col">Durée</th>
+                            <th scope="col">Horaires</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Le 17/08/2022 au 18/08/2022</td>
+                            <td>2 jours</td>
+                            <td>9h-12h/13h-17h</td>
+                        </tr>
+                        <tr>
+                            <td>Le 17/08/2022 au 18/08/2022</td>
+                            <td>2 jours</td>
+                            <td>9h-12h/13h-17h</td>
+                        </tr>
+                        <tr>
+                            <td>Le 17/08/2022 au 18/08/2022</td>
+                            <td>2 jours</td>
+                            <td>9h-12h/13h-17h</td>
+                        </tr>
+                        </tbody>
+                    </table>
                 </div>
                 <div class="calendar"></div>
 
@@ -49,6 +98,32 @@ head($page); ?>
                     <div class="titre-formation">
                     <h3>Formation Defibrilateur</h3>
                     </div>
+                    <table style="text-align: center; width: 70%;margin: auto;">
+                        <thead>
+                        <tr>
+                            <th scope="col">Date</th>
+                            <th scope="col">Durée</th>
+                            <th scope="col">Horaires</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Le 17/08/2022 au 18/08/2022</td>
+                            <td>2 jours</td>
+                            <td>9h-12h/13h-17h</td>
+                        </tr>
+                        <tr>
+                            <td>Le 17/08/2022 au 18/08/2022</td>
+                            <td>2 jours</td>
+                            <td>9h-12h/13h-17h</td>
+                        </tr>
+                        <tr>
+                            <td>Le 17/08/2022 au 18/08/2022</td>
+                            <td>2 jours</td>
+                            <td>9h-12h/13h-17h</td>
+                        </tr>
+                        </tbody>
+                    </table>
                 </div>
                 <div class="formation"></div>
 
@@ -60,7 +135,32 @@ head($page); ?>
                 <div class="titre-formation">
                         <h3>Formation Geste et posture</h3>
                     </div>
-                    
+                    <table style="text-align: center; width: 70%;margin: auto;">
+                        <thead>
+                        <tr>
+                            <th scope="col">Date</th>
+                            <th scope="col">Durée</th>
+                            <th scope="col">Horaires</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Le 17/08/2022 au 18/08/2022</td>
+                            <td>2 jours</td>
+                            <td>9h-12h/13h-17h</td>
+                        </tr>
+                        <tr>
+                            <td>Le 17/08/2022 au 18/08/2022</td>
+                            <td>2 jours</td>
+                            <td>9h-12h/13h-17h</td>
+                        </tr>
+                        <tr>
+                            <td>Le 17/08/2022 au 18/08/2022</td>
+                            <td>2 jours</td>
+                            <td>9h-12h/13h-17h</td>
+                        </tr>
+                        </tbody>
+                    </table>
                 </div>
 
                 <div class="invisible">
@@ -73,6 +173,32 @@ head($page); ?>
                     <div class="titre-formation">
                     <h3>Formation MAC SST</h3>
                     </div>
+                    <table style="text-align: center; width: 70%;margin: auto;">
+                        <thead>
+                        <tr>
+                            <th scope="col">Date</th>
+                            <th scope="col">Durée</th>
+                            <th scope="col">Horaires</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Le 17/08/2022 au 18/08/2022</td>
+                            <td>2 jours</td>
+                            <td>9h-12h/13h-17h</td>
+                        </tr>
+                        <tr>
+                            <td>Le 17/08/2022 au 18/08/2022</td>
+                            <td>2 jours</td>
+                            <td>9h-12h/13h-17h</td>
+                        </tr>
+                        <tr>
+                            <td>Le 17/08/2022 au 18/08/2022</td>
+                            <td>2 jours</td>
+                            <td>9h-12h/13h-17h</td>
+                        </tr>
+                        </tbody>
+                    </table>
                 </div>
                 <div class="devis">
                     <h4>Devis</h4>
