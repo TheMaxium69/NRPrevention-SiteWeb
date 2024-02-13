@@ -55,22 +55,15 @@ body {
     }
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1068px) {
     #sectionCL .h2NR:before {
         display: none;
     }
 }
 
-@media screen and (max-width: 768px) {
-    #sectionCL .h2NR:before {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 680px) {
-    #sectionCL .h2NR:before {
-        display: none;
-    }
+.rowFormation {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #sectionCL #h2CL {
@@ -210,11 +203,23 @@ body {
     background-position: center;
 }
 
+@media screen and (max-width: 992px) {
+    .imgF1 {
+        height: 400px !important;
+    }
+}
+
 .imgF2 {
     background: url(../assets/postures.jpeg);
     height: 500px;
     background-size: cover;
     background-position: center;
+}
+
+@media screen and (max-width: 992px) {
+    .imgF2 {
+        height: 400px !important;
+    }
 }
 
 .imgF3 {
@@ -224,11 +229,23 @@ body {
     background-position: center;
 }
 
+@media screen and (max-width: 992px) {
+    .imgF3 {
+        height: 400px !important;
+    }
+}
+
 .imgF4 {
     background: url(../assets/defib.jpeg);
     height: 500px;
     background-size: cover;
     background-position: center;
+}
+
+@media screen and (max-width: 992px) {
+    .imgF4 {
+        height: 400px !important;
+    }
 }
 
 .imgF5 {
@@ -237,6 +254,12 @@ body {
     background-size: cover;
     background-position: center;
 
+}
+
+@media screen and (max-width: 992px) {
+    .imgF5 {
+        height: 400px !important;
+    }
 }
 
 
@@ -317,4 +340,13 @@ body {
         justify-content: center;
     }
 
+}
+
+@media screen and (max-width: 992px) {
+    .respPad {
+        padding-left: 150px;
+        padding-right: 150px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 }

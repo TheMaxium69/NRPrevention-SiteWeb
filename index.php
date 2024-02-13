@@ -112,8 +112,8 @@ head($page); ?>
             <!-- FORMATIONS -->
             <div class="container-fluid"> <!-- container si je touche pas les bords pas de container si je touche les bords)
                     <h2>MON TITRE</h2>-->
-                <div class="row d-flex justify-content-evenly imageFormation"> <!-- ça aligne -->
-                    <div class="col-lg-2 scaleH" onclick="window.location.href = 'formation.php';"> <!-- On copie ça le nombre de fois ou on a besoin -->
+                <div class="row rowFormation imageFormation"> <!-- ça aligne -->
+                    <div class="col-lg-2 respPad scaleH" onclick="window.location.href = 'formation.php';"> <!-- On copie ça le nombre de fois ou on a besoin -->
                         <div class="imgF1">
 
                         </div>
@@ -121,7 +121,7 @@ head($page); ?>
                             <p class="text-center fontOrange">Formation <br> Incendie</p>
                         </div>
                     </div>
-                    <div class="col-lg-2 scaleH" onclick="window.location.href = 'formation.php';"> <!-- On copie ça le nombre de fois ou on a besoin -->
+                    <div class="col-lg-2 respPad scaleH" onclick="window.location.href = 'formation.php';"> <!-- On copie ça le nombre de fois ou on a besoin -->
                         <div class="imgF2">
 
                         </div>
@@ -129,7 +129,7 @@ head($page); ?>
                             <p class="text-center fontOrange">Formation <br> Geste et posture</p>
                         </div>
                     </div>
-                    <div class="col-lg-2 scaleH" onclick="window.location.href = 'formation.php';"> <!-- On copie ça le nombre de fois ou on a besoin -->
+                    <div class="col-lg-2 respPad scaleH" onclick="window.location.href = 'formation.php';"> <!-- On copie ça le nombre de fois ou on a besoin -->
                         <div class="imgF3">
 
                         </div>
@@ -137,7 +137,7 @@ head($page); ?>
                             <p class="text-center fontOrange">Formation <br> SST</p>
                         </div>
                     </div>
-                    <div class="col-lg-2 scaleH" onclick="window.location.href = 'formation.php';"> <!-- On copie ça le nombre de fois ou on a besoin -->
+                    <div class="col-lg-2 respPad scaleH" onclick="window.location.href = 'formation.php';"> <!-- On copie ça le nombre de fois ou on a besoin -->
                         <div class="imgF4">
 
                         </div>
@@ -145,7 +145,7 @@ head($page); ?>
                             <p class="text-center fontOrange">Formation <br> Défibrilateur</p>
                         </div>
                     </div>
-                    <div class="col-lg-2 scaleH" onclick="window.location.href = 'formation.php';"> <!-- On copie ça le nombre de fois ou on a besoin -->
+                    <div class="col-lg-2 respPad scaleH" onclick="window.location.href = 'formation.php';"> <!-- On copie ça le nombre de fois ou on a besoin -->
                         <div class="imgF5">
 
                         </div>
