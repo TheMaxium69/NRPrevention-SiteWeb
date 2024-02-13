@@ -87,7 +87,7 @@ head($page); ?>
                         </tbody>
                     </table>
                 </div>
-                <div class="calendar"></div>
+                <div class="calendar" style="height: 300px;"></div>
 
             </div>
 

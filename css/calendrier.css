@@ -58,6 +58,7 @@
     width: 70%;
     display: flex;
     align-items: center;
+    /*margin-bottom: 60px;*/
 }
 
 .planning-geste{
@@ -66,7 +67,7 @@
     width: 70%;
     display: flex;
     align-items: center;
-    margin-top: -230px;
+    margin-top: -199px;
 }
 
 .planning-mac{
@@ -127,7 +128,7 @@
     background-color: rgb(162, 108, 88);
     height: 500px;
     width: 250px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .devis{
