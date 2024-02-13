@@ -2,14 +2,38 @@
 
 require "db.php";
 
-if (!empty($_POST['email'])){
+var_dump($_POST);
 
-    //verif tout les info
+if (!empty($_POST['firstName']) && !empty($_POST['lastName']) && !empty($_POST['email']) && !empty($_POST['phone']) && !empty($_POST['zipCode']) && !empty($_POST['city']) && !empty($_POST['compagny'] && !empty($_POST['content']))){
 
-    //anti injection SQL
+    $firstName = protoctedString($_POST['firstName']);
+    $lastName = protoctedString($_POST['lastName']);
+    $email = protoctedString($_POST['email']);
+    $phone = protoctedString($_POST['phone']);
+    $zipCode = protoctedString($_POST['zipCode']);
+    $city = protoctedString($_POST['city']);
+    $compagny = protoctedString($_POST['compagny']);
+    $content = protoctedString($_POST['content']);
 
-    //envoyé a la db
+
+
+
+
+
+
+
+
 
     header("../contact.php");
+
+}
+
+
+
+function protoctedString($varaible){
+
+    $varaibleProtected = "*" . $varaible . "*";
+
+    return $varaibleProtected;
 
 }
