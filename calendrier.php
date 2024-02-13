@@ -100,7 +100,87 @@ head($page); ?>
                         </tbody>
                     </table>
                 </div>
-                <div class="calendar" style="height: 300px;"></div>
+                <div class="calendar" style="height: 300px;  padding: 7px;">
+
+                    <div style="margin-top: 15px; margin-bottom: 35px"><h4 style="text-align: center">Octobre 2022</h4></div>
+
+                    <table style="width: 100%;text-align: center;">
+                        <thead>
+                        <tr>
+                            <th scope="col">Su</th>
+                            <th scope="col">Mo</th>
+                            <th scope="col">Tu</th>
+                            <th scope="col">We</th>
+                            <th scope="col">Th</th>
+                            <th scope="col">Fr</th>
+                            <th scope="col">Sa</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
+                        </tr>
+                        <tr>
+
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
+                        </tr>
+                        <tr>
+
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
+                        </tr>
+                        <tr>
+
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
+                        </tr>
+                        <tr>
+
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
+                        </tr>
+                        <tr>
+
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
+                            <td>01</td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+
+                </div>
 
             </div>
 
