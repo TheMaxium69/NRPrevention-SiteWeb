@@ -105,6 +105,10 @@ header .grey{
         margin-top: -30px; 
         font-size: 40px; 
     }
+    #card-flex{
+        display: unset;
+        justify-content: space-around;
+    }
 
     #displayback-formation {
         margin-top: 5%; /
