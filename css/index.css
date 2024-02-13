@@ -248,3 +248,11 @@ body {
     flex-direction: row;
     margin-left: 100px;
 }
+
+@media (max-width: 991px) {
+
+    .borderCPASBIEN{
+        border: unset!important;
+    }
+
+}

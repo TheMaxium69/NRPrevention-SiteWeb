@@ -1,8 +1,8 @@
 <?php
 
-require "db.php";
+include "db.php";
 
-var_dump($_POST);
+//var_dump($_POST);
 
 if (!empty($_POST['firstName']) && !empty($_POST['lastName']) && !empty($_POST['email']) && !empty($_POST['phone']) && !empty($_POST['zipCode']) && !empty($_POST['city']) && !empty($_POST['compagny'] && !empty($_POST['content']))){
 
@@ -16,15 +16,20 @@ if (!empty($_POST['firstName']) && !empty($_POST['lastName']) && !empty($_POST['
     $content = protoctedString($_POST['content']);
 
 
+    $requeteEnvoie = $db->prepare("INSERT INTO `contact` (`firstName`, `lastName`, `email`, `phone`, `zipCode`, `city`, `compagny`, `content`) VALUES (:firstName, :lastName, :email, :phone, :zipCode, :city, :compagny, :content); ");
+    $requeteEnvoie->execute([
+        ":firstName" => $firstName,
+        ":lastName" => $lastName,
+        ":email" => $email,
+        ":phone" => $phone,
+        ":zipCode" => $zipCode,
+        ":city" => $city,
+        ":compagny" => $compagny,
+        ":content" => $content
+    ]);
 
 
-
-
-
-
-
-
-    header("../contact.php");
+    header("location: ../contact.php");
 
 }
 

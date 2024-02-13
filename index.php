@@ -24,7 +24,7 @@ head($page); ?>
                             <p> Spécialiste de la prévention et de la sécurité en entreprises,nous vous accompagnons dans la formation de vos salariés en satsifaisant aux obligations légales et règlementaires en vigueur en fonction de vos besoins.</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 border-end border-start"> <!-- On copie ça le nombre de fois ou on a besoin -->
+                    <div class="col-lg-4 border-end border-start borderCPASBIEN"> <!-- On copie ça le nombre de fois ou on a besoin -->
                         <div class=" d-flex justify-content-center img2 up3d">
 
                         </div>

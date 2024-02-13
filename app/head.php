@@ -5,9 +5,17 @@ function head($page)
 
     //Page
     if ($page == 1) {
-        $title = "Exemple";
+        $title = "NR Prévention";
+    } else if ($page == 2) {
+        $title = "Calendrier | NR Prévention";
+    } else if ($page == 3) {
+        $title = "Formation | NR Prévention";
+    } else if ($page == 4) {
+        $title = "Contact | NR Prévention";
+    } else if ($page == 5) {
+        $title = "NR Prévention";
     } else {
-        $title = "404 | Exemple";
+        $title = "404 | NR Prévention";
     }
 
 
