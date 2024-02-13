@@ -76,7 +76,7 @@
     width: 70%;
     display: flex;
     align-items: center;
-    margin-top: -95px;
+    /*margin-top: -95px;*/
 }
 
 .lieu{
@@ -139,5 +139,6 @@
     align-items: center;
     display: flex;
     justify-content: center;
+    margin-top: -161px;
 }
 

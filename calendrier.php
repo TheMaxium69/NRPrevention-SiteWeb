@@ -49,7 +49,20 @@ head($page); ?>
 
                 </div>
                 <div class="lieu">
-                    <h3>Lieu</h3>
+                    <div style="border-radius: 100px;
+  height: 100px;
+  width: 100px;
+  background: red;
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 182px;
+  background-image: url('https://www.city-lyon.fr/wp-content/uploads/sites/137/2013/12/lyon-meilleur-pire-arrondissements.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+"></div>
+                    <h3 style="font-weight: 700;text-transform: uppercase;">Lieu</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti nisi iusto odio, aliquid eum quod maiores nulla </p>
                 </div>
 
@@ -125,7 +138,19 @@ head($page); ?>
                         </tbody>
                     </table>
                 </div>
-                <div class="formation"></div>
+                <div class="formation">
+
+                    <h4 style="text-align: center;color: white;margin-top: 30px;font-weight: 700;text-transform: uppercase;">Formation</h4>
+                    <br>
+                    <div style="margin: 70px 30px;color: white">
+                        <h6 style="margin-top: 20px">Formation Incendie</h6>
+                        <h6 style="margin-top: 20px">Formation SST</h6>
+                        <h6 style="margin-top: 20px">Formation Defibrilateur</h6>
+                        <h6 style="margin-top: 20px">Formation Geste et posture</h6>
+                        <h6 style="margin-top: 20px">Formation MAC SST</h6>
+                    </div>
+
+                </div>
 
             </div>  
 
@@ -171,7 +196,7 @@ head($page); ?>
 
                 <div class="planning-mac">
                     <div class="titre-formation">
-                    <h3>Formation MAC SST</h3>
+                        <h3>Formation MAC SST</h3>
                     </div>
                     <table style="text-align: center; width: 70%;margin: auto;">
                         <thead>
@@ -200,7 +225,7 @@ head($page); ?>
                         </tbody>
                     </table>
                 </div>
-                <div class="devis">
+                <div class="devis scaleH" onclick="window.location.href = 'contact.php';">
                     <h4>Devis</h4>
                 </div>
 
