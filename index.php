@@ -14,7 +14,7 @@ head($page); ?>
 
                 <div class="row"> <!-- ça aligne -->
                     <div class="col-lg-4"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class="d-flex justify-content-center img1">
+                        <div class="d-flex justify-content-center img1 up3d">
 
                         </div>
                         <div class="d-flex justify-content-center m-3">
@@ -25,7 +25,7 @@ head($page); ?>
                         </div>
                     </div>
                     <div class="col-lg-4 border-end border-start"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class=" d-flex justify-content-center img2">
+                        <div class=" d-flex justify-content-center img2 up3d">
 
                         </div>
                         <div class="d-flex justify-content-center m-3">
@@ -36,7 +36,7 @@ head($page); ?>
                         </div>
                     </div>
                     <div class="col-lg-4"> <!-- On copie ça le nombre de fois ou on a besoin -->
-                        <div class="d-flex justify-content-center img3">
+                        <div class="d-flex justify-content-center img3 up3d">
 
                         </div>
                         <div class="d-flex justify-content-center m-3">
@@ -113,7 +113,7 @@ head($page); ?>
             <div class="container-fluid"> <!-- container si je touche pas les bords pas de container si je touche les bords)
                     <h2>MON TITRE</h2>-->
                 <div class="row d-flex justify-content-evenly imageFormation"> <!-- ça aligne -->
-                    <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
+                    <div class="col-lg-2 scaleH" onclick="window.location.href = 'formation.php';"> <!-- On copie ça le nombre de fois ou on a besoin -->
                         <div class="imgF1">
 
                         </div>
@@ -121,7 +121,7 @@ head($page); ?>
                             <p class="text-center fontOrange">Formation <br> Incendie</p>
                         </div>
                     </div>
-                    <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
+                    <div class="col-lg-2 scaleH" onclick="window.location.href = 'formation.php';"> <!-- On copie ça le nombre de fois ou on a besoin -->
                         <div class="imgF2">
 
                         </div>
@@ -129,7 +129,7 @@ head($page); ?>
                             <p class="text-center fontOrange">Formation <br> Geste et posture</p>
                         </div>
                     </div>
-                    <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
+                    <div class="col-lg-2 scaleH" onclick="window.location.href = 'formation.php';"> <!-- On copie ça le nombre de fois ou on a besoin -->
                         <div class="imgF3">
 
                         </div>
@@ -137,7 +137,7 @@ head($page); ?>
                             <p class="text-center fontOrange">Formation <br> SST</p>
                         </div>
                     </div>
-                    <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
+                    <div class="col-lg-2 scaleH" onclick="window.location.href = 'formation.php';"> <!-- On copie ça le nombre de fois ou on a besoin -->
                         <div class="imgF4">
 
                         </div>
@@ -145,7 +145,7 @@ head($page); ?>
                             <p class="text-center fontOrange">Formation <br> Défibrilateur</p>
                         </div>
                     </div>
-                    <div class="col-lg-2"> <!-- On copie ça le nombre de fois ou on a besoin -->
+                    <div class="col-lg-2 scaleH" onclick="window.location.href = 'formation.php';"> <!-- On copie ça le nombre de fois ou on a besoin -->
                         <div class="imgF5">
 
                         </div>
@@ -172,11 +172,11 @@ head($page); ?>
         </div>
         <?php qualiopi(); ?>
     <div class="calendrier-block">
-        <div class="calendrier-block1">
+        <div class="calendrier-block1 scaleH" onclick="window.location.href = 'calendrier.php';">
             <img src="./assets/calendrier.png" alt="calendrier">
             <h3>Calendrier</h3>
             </div>
-            <div class="calendrier-block2">
+            <div class="calendrier-block2 scaleH" onclick="window.location.href = 'contact.php';">
             <img src="./assets/calcul.png" alt="devis">
             <h3>Devis</h3>
             </div>
