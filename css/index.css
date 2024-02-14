@@ -297,6 +297,9 @@ body {
         margin-top: 1%;
         margin-bottom: 1%;
     }
+    .border-start {
+        border-left: unset !important;
+    }
 
 }
 
