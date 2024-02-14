@@ -42,10 +42,14 @@
         height: auto; 
         margin-bottom: 20px; 
     }
+
+    .block-grey-qualiopi{
+        margin-top: 85px;
+    }
 }
 
 /* Pour les écrans de taille moyenne à grande à partir de 769px */
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 400px) {
     #competence article {
         margin: 0 auto; 
         max-width: 1200px;
@@ -64,5 +68,4 @@
         font-size: 18px; 
     }
 }
-
 
