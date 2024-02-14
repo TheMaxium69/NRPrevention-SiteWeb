@@ -37,3 +37,32 @@
     justify-content: center;
     color: rgb(233, 91, 42);
 }
+
+@media screen and (max-width: 1540px) {
+    .imgCN {
+        height: 220px;
+        background: url(../assets/entete.png);
+        position: relative;
+        right: 50px;
+        top: 30px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .imgCN {
+        height: 220px;
+        background: url(../assets/entete.png);
+        position: relative;
+        right: 50px;
+        top: 20px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .imgCN {
+        height: 220px;
+        background: url(../assets/entete.png);
+        position: unset;
+        
+    }
+}
