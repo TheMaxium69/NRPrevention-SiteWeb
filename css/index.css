@@ -292,8 +292,6 @@ body {
     .borderCPASBIEN{
         border-left: unset!important;
         border-right: unset!important;
-        border-top: unset !important;
-    border-bottom: unset !important;
         margin-top: 1%;
         margin-bottom: 1%;
     }
