@@ -306,6 +306,8 @@ body {
 
     .calendrier-block2 img{
         height: 75px;
+        position: relative;
+        right: 25px;
     }
 
 }
