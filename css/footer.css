@@ -169,7 +169,7 @@
         align-items: flex-start;
         flex-direction: column;
         position: absolute;
-        left: 30%;
+        left: 25%;
     }
 
     .brown-div, .white-div, .grey-div {
@@ -178,7 +178,11 @@
         height: 70%; 
     }
 
-
+    .footer-element-1,
+    .footer-element-2,
+    .footer-element{
+        margin-bottom: 38px!important;
+    }
 
 }
 
