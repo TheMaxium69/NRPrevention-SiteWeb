@@ -175,7 +175,7 @@
     .brown-div, .white-div, .grey-div {
         width: 100%; 
         max-width: none;
-        height: 70%; 
+        height: 100%; 
     }
 
     .footer-element-1,
